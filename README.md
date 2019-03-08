@@ -8,3 +8,4 @@
 | 263| 丑数|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_263-%E4%B8%91%E6%95%B0%EF%BC%88ugly-number%EF%BC%89)|
 | 442 | 数组中重复的数据 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_442-%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E6%8D%AE) |
 | 905| 按奇偶排序数组 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_905-%E6%8C%89%E5%A5%87%E5%81%B6%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84)|
+|53|最大子序和|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_53-%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%92%8C)|
