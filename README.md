@@ -37,10 +37,12 @@
 | 0128 | 最长连续序列 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0128-%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97)|
 | 0136| 只出现一次的数字|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0136-%E5%8F%AA%E5%87%BA%E7%8E%B0%E4%B8%80%E6%AC%A1%E7%9A%84%E6%95%B0%E5%AD%97)|
 | 0137| 只出现一次的数字II|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0137-%E5%8F%AA%E5%87%BA%E7%8E%B0%E4%B8%80%E6%AC%A1%E7%9A%84%E6%95%B0%E5%AD%97-II)|
+| 0146 | LRU缓存机制 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0146-LRU%E7%BC%93%E5%AD%98%E6%9C%BA%E5%88%B6)|
 | 0148 | 排序链表 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0148-%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8)|
 | 0151| 翻转字符串里的单词|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0151-%E7%BF%BB%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%87%8C%E7%9A%84%E5%8D%95%E8%AF%8D)|
 | 0167| 两数之和II-输入有序数组|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0167-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8CII-%E8%BE%93%E5%85%A5%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84)|
 | 0179| 最大数|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0179-%E6%9C%80%E5%A4%A7%E6%95%B0)|
+| 0189| 旋转数组 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0189-%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84)|
 | 0191| 位1的个数|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0191-%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0)|
 | 0205| 同构字符串 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0205-%E5%90%8C%E6%9E%84%E5%AD%97%E7%AC%A6%E4%B8%B2)|
 | 0206|  反转链表|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0206-%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8)|
@@ -84,6 +86,5 @@
 |1012|十进制整数的反码|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_1012-%E5%8D%81%E8%BF%9B%E5%88%B6%E6%95%B4%E6%95%B0%E7%9A%84%E5%8F%8D%E7%A0%81)|
 |1013|总持续时间可被60整除的歌曲|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_1013-%E6%80%BB%E6%8C%81%E7%BB%AD%E6%97%B6%E9%97%B4%E5%8F%AF%E8%A2%AB-60-%E6%95%B4%E9%99%A4%E7%9A%84%E6%AD%8C%E6%9B%B2)|
 |1029|可被5整除的二进制前缀|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_1029-%E5%8F%AF%E8%A2%AB5%E6%95%B4%E9%99%A4%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%89%8D%E7%BC%80)|
-
 
 
