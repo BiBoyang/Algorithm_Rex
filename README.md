@@ -17,7 +17,9 @@
 | 0014 | 最长公共前缀 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0014-%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80)|
 |0015|三数之和|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0015-%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C)|
 |0018|四树之和|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0018-%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C)|
+| 0020 | 有效的括号 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0020-%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7)|
 |0021|合并两个有序链表|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0021-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8)|
+|0023|合并K个排序链表|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0023-%E5%90%88%E5%B9%B6K%E4%B8%AA%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8)|
 |0026|删除排序数组中的重复项|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0026-%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9)|
 |0027|移除元素|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0027-%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0)|
 |0033|搜索旋转排序数组|[WiKi链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0033-%E6%90%9C%E7%B4%A2%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84)|
@@ -37,9 +39,12 @@
 | 0128 | 最长连续序列 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0128-%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97)|
 | 0136| 只出现一次的数字|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0136-%E5%8F%AA%E5%87%BA%E7%8E%B0%E4%B8%80%E6%AC%A1%E7%9A%84%E6%95%B0%E5%AD%97)|
 | 0137| 只出现一次的数字II|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0137-%E5%8F%AA%E5%87%BA%E7%8E%B0%E4%B8%80%E6%AC%A1%E7%9A%84%E6%95%B0%E5%AD%97-II)|
+| 0141| 环形链表|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0141-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8)|
+| 0142 | 环形链表II|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0142-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8II)|
 | 0146 | LRU缓存机制 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0146-LRU%E7%BC%93%E5%AD%98%E6%9C%BA%E5%88%B6)|
 | 0148 | 排序链表 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0148-%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8)|
 | 0151| 翻转字符串里的单词|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0151-%E7%BF%BB%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%87%8C%E7%9A%84%E5%8D%95%E8%AF%8D)|
+| 0160 | 相交链表 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0160-%E7%9B%B8%E4%BA%A4%E9%93%BE%E8%A1%A8)|
 | 0167| 两数之和II-输入有序数组|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0167-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8CII-%E8%BE%93%E5%85%A5%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84)|
 | 0179| 最大数|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0179-%E6%9C%80%E5%A4%A7%E6%95%B0)|
 | 0189| 旋转数组 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0189-%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84)|
@@ -52,6 +57,8 @@
 | 0220 | 存在重复元素III |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0220-%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0III)|
 | 0229| 求众数|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0229-%E6%B1%82%E4%BC%97%E6%95%B0-II)|
 | 0231| 2的幂|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0231-2%E7%9A%84%E5%B9%82)|
+| 0235 | 二叉搜索树的最近公共祖先 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0235-%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88)|
+| 0236 | 二叉树的最近公共祖先 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0236-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88)|
 |0240|搜索二维矩阵II|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0240-%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5-II)|
 |0260|只出现一次的数字 III|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0260-%E5%8F%AA%E5%87%BA%E7%8E%B0%E4%B8%80%E6%AC%A1%E7%9A%84%E6%95%B0%E5%AD%97-III)|
 | 0263| 丑数|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0263-%E4%B8%91%E6%95%B0%EF%BC%88ugly-number%EF%BC%89)|
@@ -60,6 +67,7 @@
 | 0350| 两个数组的交集 II|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0350-%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86-II)|
 | 0380| 常数时间插入、删除和获取随机元素 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0380-%E5%B8%B8%E6%95%B0%E6%97%B6%E9%97%B4%E6%8F%92%E5%85%A5%E3%80%81%E5%88%A0%E9%99%A4%E5%92%8C%E8%8E%B7%E5%8F%96%E9%9A%8F%E6%9C%BA%E5%85%83%E7%B4%A0)|
 | 0387| 字符串中的第一个唯一字符|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0387-%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%94%AF%E4%B8%80%E5%AD%97%E7%AC%A6)|
+| 0414| 第三大的数|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0414-%E7%AC%AC%E4%B8%89%E5%A4%A7%E7%9A%84%E6%95%B0)|
 | 0442| 数组中重复的数据|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0442-%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E6%8D%AE)|
 | 0454| 四数相加 II |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0454-%E5%9B%9B%E6%95%B0%E7%9B%B8%E5%8A%A0-II)|
 |0485|最大连续1的个数|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0485-%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD1%E7%9A%84%E4%B8%AA%E6%95%B0)|
@@ -85,6 +93,8 @@
 |1005| K 次取反后最大化的数组和|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_1005-K-%E6%AC%A1%E5%8F%96%E5%8F%8D%E5%90%8E%E6%9C%80%E5%A4%A7%E5%8C%96%E7%9A%84%E6%95%B0%E7%BB%84%E5%92%8C)|
 |1012|十进制整数的反码|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_1012-%E5%8D%81%E8%BF%9B%E5%88%B6%E6%95%B4%E6%95%B0%E7%9A%84%E5%8F%8D%E7%A0%81)|
 |1013|总持续时间可被60整除的歌曲|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_1013-%E6%80%BB%E6%8C%81%E7%BB%AD%E6%97%B6%E9%97%B4%E5%8F%AF%E8%A2%AB-60-%E6%95%B4%E9%99%A4%E7%9A%84%E6%AD%8C%E6%9B%B2)|
-|1029|可被5整除的二进制前缀|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_1029-%E5%8F%AF%E8%A2%AB5%E6%95%B4%E9%99%A4%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%89%8D%E7%BC%80)|
+|1018|可被5整除的二进制前缀|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_1018-%E5%8F%AF%E8%A2%AB5%E6%95%B4%E9%99%A4%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%89%8D%E7%BC%80)|
+| 1029 |两地调度|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_1029-%E4%B8%A4%E5%9C%B0%E8%B0%83%E5%BA%A6)|
+
 
 
