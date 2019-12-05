@@ -4,18 +4,19 @@
 
 # 布局
 
-| 题号 | 题目(中) | MyWiki |
-| --- | --- | --- |
-| 0001 | 两数之和 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0001-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C)|
-| 0002 | 两数相加 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0002-%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0)|
-| 0003 | 无重复字符最长子串 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0003-%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2)|
-| 0005 | 最长回文子串 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0005-%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2)|
+| 题号 | 题目(中) | MyWiki | 难度 |
+| --- | --- | --- | --- |
+| 0001 | 两数之和 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0001-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C)|easy| 
+| 0002 | 两数相加 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0002-%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0)|medium|
+| 0003 | 无重复字符最长子串 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0003-%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2)|medium|
+|0004|寻找两个有序数组的中位数|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0004-%E5%AF%BB%E6%89%BE%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0)|hard|
+| 0005 | 最长回文子串 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0005-%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2)|medium|
 | 0007 | 整数反转 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0007-%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC)|
 | 0008 | 字符串转换整数 (atoi) | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0008-%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%8D%A2%E6%95%B4%E6%95%B0-(atoi))|
 | 0009 | 回文数 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0009-%E5%9B%9E%E6%96%87%E6%95%B0)|
 | 0014 | 最长公共前缀 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0014-%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80)|
 |0015|三数之和|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0015-%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C)|
-|0018|四树之和|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0018-%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C)|
+|0018|四数之和|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0018-%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C)|
 | 0020 | 有效的括号 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0020-%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7)|
 |0021|合并两个有序链表|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0021-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8)|
 |0023|合并K个排序链表|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0023-%E5%90%88%E5%B9%B6K%E4%B8%AA%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8)|
@@ -139,3 +140,12 @@
 | 0557 | 反转字符串中的单词 III |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0557-%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E5%8D%95%E8%AF%8D-III)|
 |0647| 回文子串 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0647-%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2)|
 | 1119 | 删除字符串中的元音 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_1119-%E5%88%A0%E9%99%A4%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E5%85%83%E9%9F%B3)|
+
+## Tree
+
+| 题号 | 题目(中) | MyWiki |
+| --- | --- | --- |
+| 0235 | 二叉搜索树的最近公共祖先 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0235-%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88)|
+| 0236 | 二叉树的最近公共祖先 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0236-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88)|
+|0652| 寻找重复的子树 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0652-%E5%AF%BB%E6%89%BE%E9%87%8D%E5%A4%8D%E7%9A%84%E5%AD%90%E6%A0%91)|
+
