@@ -2,6 +2,11 @@
 [移步wiki](https://github.com/BiBoyang/Algorithm_Rex/wiki)
 
 
+![](https://raw.githubusercontent.com/BiBoyang/Algorithm_Rex/master/Image/B_Rex_01.png)
+
+
+
+
 # 布局
 
 | 题号 | 题目(中) | MyWiki | 难度 |
