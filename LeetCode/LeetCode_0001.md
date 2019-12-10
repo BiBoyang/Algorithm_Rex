@@ -54,7 +54,8 @@ public:
 ### 2.优化过后的哈希法
 在上一步中，我们分两次给哈希表进行添加和甄别。
 我们其实可以直接在一次中直接进行这两步操作。
-```
+
+```C++
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
