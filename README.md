@@ -36,12 +36,15 @@
 |0053|最大子序和|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0053-%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%92%8C)|
 |0060|第k个排列|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0060-%E7%AC%ACk%E4%B8%AA%E6%8E%92%E5%88%97)|
 |0062|不同路径|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0062-%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84)|
-| 0066 | 加一 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0066-%E5%8A%A0%E4%B8%80)|
+| 0066 | 加一 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0066.md)|easy|
+| 0067 |二进制求和|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0067.md)|easy|
+| 0070 | 爬楼梯 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0070.md)| easy |
 | 0071 | 简化路径 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0071-%E7%AE%80%E5%8C%96%E8%B7%AF%E5%BE%84)|
 | 0074 | 搜索二维矩阵 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0074-%E6%90%9C%E7%B4%A2%E4%BA%8C%E4%BD%8D%E7%9F%A9%E9%98%B5)|
 |0081|搜索旋转排序数组II|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0081-%E6%90%9C%E7%B4%A2%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84II)|
 | 0088 | 合并两个有序数组 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0088-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84)|
 | 0093 | 复原IP地址 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0093-%E5%A4%8D%E5%8E%9FIP%E5%9C%B0%E5%9D%80)|
+| 0094 | 二叉树的中序遍历 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0094.md)|medium | 
 | 0120 | 三角形最小路径和 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0120-%E4%B8%89%E8%A7%92%E5%BD%A2%E6%9C%80%E5%B0%8F%E8%B7%AF%E5%BE%84%E5%92%8C)|
 | 0121 | 买卖股票的最佳时机 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0121-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA)|
 | 0122 | 买卖股票的最佳时机II | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0122-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-II)|
@@ -86,6 +89,7 @@
 | 0380| 常数时间插入、删除和获取随机元素 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0380-%E5%B8%B8%E6%95%B0%E6%97%B6%E9%97%B4%E6%8F%92%E5%85%A5%E3%80%81%E5%88%A0%E9%99%A4%E5%92%8C%E8%8E%B7%E5%8F%96%E9%9A%8F%E6%9C%BA%E5%85%83%E7%B4%A0)|
 | 0387| 字符串中的第一个唯一字符|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0387-%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%94%AF%E4%B8%80%E5%AD%97%E7%AC%A6)|
 | 0414| 第三大的数|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0414-%E7%AC%AC%E4%B8%89%E5%A4%A7%E7%9A%84%E6%95%B0)|
+| 0436 | 寻找右区间|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0436.md)|medium|
 | 0442| 数组中重复的数据|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0442-%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E6%8D%AE)|
 | 0454| 四数相加 II |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0454-%E5%9B%9B%E6%95%B0%E7%9B%B8%E5%8A%A0-II)|
 | 0459| 重复的子字符串 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0459-%E9%87%8D%E5%A4%8D%E7%9A%84%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2)|
@@ -104,8 +108,8 @@
 |0695 |岛屿的最大面积 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0695-%E5%B2%9B%E5%B1%BF%E7%9A%84%E6%9C%80%E5%A4%A7%E9%9D%A2%E7%A7%AF)|
 |0705 | 设计哈希集合 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0705-%E8%AE%BE%E8%AE%A1%E5%93%88%E5%B8%8C%E9%9B%86%E5%90%88)|
 |0706 | 设计哈希映射 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0706-%E8%AE%BE%E8%AE%A1%E5%93%88%E5%B8%8C%E6%98%A0%E5%B0%84)|
-| 0724| 寻找数组的中心索引|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0724-%E5%AF%BB%E6%89%BE%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%AD%E5%BF%83%E7%B4%A2%E5%BC%95)|
-| 0747| 至少是其他数字两倍的最大数|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0747-%E8%87%B3%E5%B0%91%E6%98%AF%E5%85%B6%E4%BB%96%E6%95%B0%E5%AD%97%E4%B8%A4%E5%80%8D%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0)|
+| 0724| 寻找数组的中心索引|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0724.md)|easy|
+| 0747| 至少是其他数字两倍的最大数|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0747.md)|easy|
 | 0771| 宝石与石头 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0771-%E5%AE%9D%E7%9F%B3%E4%B8%8E%E7%9F%B3%E5%A4%B4)|
 | 0796| 旋转字符串 |[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0796-%E6%97%8B%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2)|
 | 0801| 使序列递增的最小交换次数|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0801-%E4%BD%BF%E5%BA%8F%E5%88%97%E9%80%92%E5%A2%9E%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BA%A4%E6%8D%A2%E6%AC%A1%E6%95%B0)|
