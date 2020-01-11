@@ -9,11 +9,11 @@
 
 # 布局
 
-| 题号 | 题目(中) | MyWiki | 难度 |
+| 题号 | 题目(中) | Link | 难度 |
 | --- | --- | --- | --- |
-| 0001 | 两数之和 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0001-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C)|easy| 
-| 0002 | 两数相加 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0002-%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0)|medium|
-| 0003 | 无重复字符最长子串 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0003-%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2)|medium|
+| 0001 | 两数之和 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0001.md)|easy| 
+| 0002 | 两数相加 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0002.md)|medium|
+| 0003 | 无重复字符最长子串 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0003.md)|medium|
 |0004|寻找两个有序数组的中位数|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0004-%E5%AF%BB%E6%89%BE%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0)|hard|
 | 0005 | 最长回文子串 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0005-%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2)|medium|
 | 0007 | 整数反转 | [Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0007-%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC)|
