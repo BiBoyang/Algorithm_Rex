@@ -10,9 +10,9 @@
 
 # 题目
 
-| 题号 | 题目(中) | Link | 难度 |
-| --- | --- | --- | --- |
-| 0001 | 两数之和 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0001.md)|easy| 
+| 题号 | 题目(中) | Link | 难度 |要点|
+| --- | --- | --- | --- |----|
+| 0001 | 两数之和 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0001.md)|easy| 直接使用hash表来筛选|
 | 0002 | 两数相加 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0002.md)|medium|
 | 0003 | 无重复字符最长子串 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0003.md)|medium|
 |0004|寻找两个有序数组的中位数|[Wiki链接](https://github.com/BiBoyang/Algorithm_Rex/wiki/LeetCode_0004-%E5%AF%BB%E6%89%BE%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0)|hard|
