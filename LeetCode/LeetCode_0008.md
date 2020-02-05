@@ -51,6 +51,9 @@
      因此返回 INT_MIN (−231) 。
 
 ## 解答
+题目比较简单，
+
+
 ```C++
 class Solution {
 public:
