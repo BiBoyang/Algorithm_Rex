@@ -67,16 +67,16 @@ public:
 class Solution {
 public:
     bool isValidBST(TreeNode* root) {
-        vector<int> ch;
-		if(root==NULL) {
+        vector<int> res;
+		if(root == NULL) {
             return true;
 		} else {
-			inorderTraversal(root,ch);
-			if(ch.size()==1){ 
+			inorderTraversal(root,res);
+			if(res.size()==1){ 
 				return true;
             }
-			for(int i=0;i<ch.size()-1;i++){
-				if(ch[i]>=ch[i+1]) {
+			for(int i=0;i<res.size()-1;i++){
+				if(res[i] >= res[i+1]) {
 					return false;
                 }
 			}
