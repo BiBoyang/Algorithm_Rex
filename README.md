@@ -7,8 +7,8 @@
 
 
 # 专项练习
-[**螺旋矩阵三连**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_01.md)
-[**二叉树的各种遍历**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_02.md)
+* [**螺旋矩阵三连**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_01.md)     
+* [**二叉树遍历**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_02.md)
 
 # 题目
 
