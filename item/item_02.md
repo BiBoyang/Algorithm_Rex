@@ -4,11 +4,11 @@
 |---|---|---|
 |[144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)     |   |   |
 |[94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+|[0145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)  |   |   |
+|[0102. 二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)  |   |   |
+|[0107. 二叉树的层次遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)   |   |   |
+|[314. 二叉树的垂直遍历](https://leetcode-cn.com/problems/binary-tree-vertical-order-traversal/)   |   |   |
+|[987. 二叉树的垂序遍历](https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree/)   |   |   |
 
 
 
@@ -27,7 +27,8 @@
 * 中序遍历 
   对于节点的处理工作是在它的左儿子之后，右儿子之前；先遍历左子树，然后访问根节点，然后遍历右子树。实际上是DFS。
   
-* 层序遍历 实际上就是广度优先遍历。后面会细说。
+* 层序遍历 
+    实际上就是广度优先遍历。
 
 ## 二叉查找树(binary search tree)
 我们一般使用的树，默认为二叉查找树（Binary Search Tree），它的深度的平均值是 **O(logN)** ，最坏的情况下，深度可以达到 **N-1**。
