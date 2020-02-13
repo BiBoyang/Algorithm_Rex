@@ -76,9 +76,6 @@ public:
             node->right = tmp;
             if (node->left) nodeQueue.push(node->left);
             if (node->right) nodeQueue.push(node->right);
-
-
-
         }
         return root;
 

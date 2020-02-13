@@ -50,6 +50,13 @@
 | 0088 | 合并两个有序数组 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0088.md)|easy|
 | 0093 | 复原IP地址 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0093.md)|medium|
 | 0094 | 二叉树的中序遍历 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0094.md)|medium | 
+| 0095 |不同的二叉搜索树 II|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0095.md)|medium|
+| 0096|不同的二叉搜索树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0096.md)|medium|
+| 0098 |  验证二叉搜索树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0098.md)|medium|
+|0101|对称二叉树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0101.md)|medium|
+|0102|二叉树的层次遍历|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0101.md)|medium|
+|0105|从前序与中序遍历序列构造二叉树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0105.md)|medium|
+|0107|二叉树的层次遍历 II|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0107.md)|easy|
 | 0120 | 三角形最小路径和 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0120.md)|medium|
 | 0121 | 买卖股票的最佳时机 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0121.md)|medium|
 | 0122 | 买卖股票的最佳时机II | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0122.md)|medium|
@@ -59,6 +66,8 @@
 | 0137| 只出现一次的数字II|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0137.md)|medium|
 | 0141| 环形链表|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0141.md)|easy|
 | 0142 | 环形链表II|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0142.md)|medium|
+|0144|二叉树的前序遍历|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0144.md)|medium|
+|0145|二叉树的后序遍历|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0145.md)|
 | 0146 | LRU缓存机制 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0146.md)|medium|
 | 0148 | 排序链表 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0148.md)|medium|
 | 0151| 翻转字符串里的单词|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0151.md)|medium|
@@ -77,6 +86,7 @@
 | 0217 | 存在重复元素 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0217.md)|easy|
 | 0219 | 存在重复元素II |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0219.md)|easy|
 | 0220 | 存在重复元素III |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0220.md)|medium|
+|0226|翻转二叉树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0226.md)|easy|
 | 0229| 求众数II|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0229.md)|medium|
 | 0231| 2的幂|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0231.md)|easy|
 | 0235 | 二叉搜索树的最近公共祖先 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0235.md)|easy|
@@ -86,6 +96,7 @@
 | 0263| 丑数|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0263.md)|easy|
 | 0264| 丑数II|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0264.md)|medium|
 | 0300 | 最长上升子序列 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0300.md)|medium|
+|0314|二叉树的垂直遍历|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0314.md)|medium|
 | 0319| 灯泡开关 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0319.md)|medium|
 | 0322| 零钱兑换|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0322.md)|medium|
 | 0330 | 按要求补齐数组 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0330.md)|hard|
@@ -121,6 +132,7 @@
 | 0887|鸡蛋掉落|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0887.md)|hard|
 | 0905| 按奇偶排序数组|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0905.md)|easy|
 | 0969| 煎饼排序 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0969.md)|medium|
+|0987|二叉树的垂序遍历|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0987.md)|medium|
 | 0995 | K连续位的最小翻转次数 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0995.md)|hard|
 |1004|最大连续1的个数III|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_1004.md)|medium|
 |1005| K 次取反后最大化的数组和|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_1005.md)|easy|
@@ -131,6 +143,8 @@
 | 1105 | 填充书架 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_1105.md)|medium|
 | 1118 | 一月有多少天 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_1118.md)|easy|
 | 1119 | 删除字符串中的元音 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_1119.md)|easy|
+|1281|整数的各位积和之差|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_1281.md)|easy|
+|1342|将数字变成 0 的操作次数|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_1342.md)|easy|
 
 
 ## String || Math
@@ -159,8 +173,17 @@
 
 | 题号 | 题目(中) | MyWiki |
 | --- | --- | --- |
-|0094|二叉树的中序遍历|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0094.md)|
-|0144| 二叉树的前序遍历|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0144.md)|
+| 0094 | 二叉树的中序遍历 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0094.md)|medium | 
+| 0095 |不同的二叉搜索树 II|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0095.md)|medium|
+| 0096|不同的二叉搜索树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0096.md)|medium|
+| 0098 |  验证二叉搜索树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0098.md)|medium|
+|0101|对称二叉树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0101.md)|medium|
+|0102|二叉树的层次遍历|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0101.md)|medium|
+|0105|从前序与中序遍历序列构造二叉树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0105.md)|medium|
+|0107|二叉树的层次遍历 II|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0107.md)|easy|
+|0144|二叉树的前序遍历|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0144.md)|medium|
+|0145|二叉树的后序遍历|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0145.md)|
+|0226|翻转二叉树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0226.md)|easy|
 | 0235 | 二叉搜索树的最近公共祖先 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0235.md)|
 | 0236 | 二叉树的最近公共祖先 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0236.md)|
 |0652| 寻找重复的子树 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0652.md)|
