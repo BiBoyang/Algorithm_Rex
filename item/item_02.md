@@ -83,8 +83,7 @@ public:
         return ans;
     }
     void dfs(vector<int>& ans,TreeNode* root) {
-        if(root==NULL)
-            return;
+        if(root==NULL) return;
         ans.push_back(root->val);
         dfs(ans,root->left);
         dfs(ans,root->right);
@@ -127,8 +126,7 @@ public:
         return ans;
     }
     void dfs(vector<int>& ans,TreeNode* root) {
-        if(root==NULL)
-            return;
+        if(root==NULL) return;
         dfs(ans,root->left);
         ans.push_back(root->val);
         dfs(ans,root->right);
@@ -169,9 +167,7 @@ public:
         return ans;
     }
     void dfs(vector<int>& ans,TreeNode* root) {
-        if(root == NULL) {
-            return;
-        }
+        if(root == NULL) return;
         dfs(ans,root->left);
         dfs(ans,root->right);
         ans.push_back(root->val);
@@ -213,3 +209,7 @@ public:
 };
 ```
 
+## 二叉树的层次遍历
+## 二叉树的层次遍历 II
+## 二叉树的垂直遍历
+## 二叉树的垂序遍历
