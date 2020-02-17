@@ -55,6 +55,7 @@
 | 0098 |  验证二叉搜索树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0098.md)|medium|
 |0101|对称二叉树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0101.md)|medium|
 |0102|二叉树的层次遍历|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0101.md)|medium|
+|0104|二叉树的最大深度|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0104.md)|medium|
 |0105|从前序与中序遍历序列构造二叉树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0105.md)|medium|
 |0107|二叉树的层次遍历 II|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0107.md)|easy|
 | 0120 | 三角形最小路径和 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0120.md)|medium|
@@ -179,6 +180,7 @@
 | 0098 |  验证二叉搜索树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0098.md)|medium|
 |0101|对称二叉树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0101.md)|medium|
 |0102|二叉树的层次遍历|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0101.md)|medium|
+|0104|二叉树的最大深度|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0104.md)|medium|
 |0105|从前序与中序遍历序列构造二叉树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0105.md)|medium|
 |0107|二叉树的层次遍历 II|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0107.md)|easy|
 |0144|二叉树的前序遍历|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0144.md)|medium|
