@@ -29,7 +29,6 @@
 
 
 ```C++
-
 class Solution {
 public·:
     vector<vector<int>> levelOrder(TreeNode* root) {
@@ -48,7 +47,6 @@ public·:
         if(node->right) bfs(res,node->right,level+1);
     }
 };
-
 ```
 时间复杂度：O(N)，因为每个节点恰好会被运算一次。
 空间复杂度：O(N)，保存输出结果的数组包含 N 个节点的值。

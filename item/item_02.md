@@ -210,6 +210,32 @@ public:
 ```
 
 ## 二叉树的层次遍历
+最简单的解法就是递归，首先确认树非空，然后调用递归函数 bfs(node, level)，参数是当前节点和节点的层次。程序过程如下：
+
+* 输出列表称为 levels，当前最高层数就是列表的长度 len(levels)。比较访问节点所在的层次 level 和当前最高层次 len(levels) 的大小，如果前者更大就向 levels 添加一个空列表。
+* 将当前节点插入到对应层的列表 levels[level] 中。
+* 递归非空的孩子节点：bfs(node.left / node.right, level + 1)。
+```C++
+class Solution {
+public·:
+    vector<vector<int>> levelOrder(TreeNode* root) {
+        vector<vector<int>> res;
+        bfs(res,root,0);
+        return res;
+    }
+    void bfs(vector<vector<int>>& res,TreeNode* node,int level){
+        if(node==NULL) return ;
+        if(level >= res.size()){
+            vector<int> level_res;
+            res.push_back(level_res);
+        }  
+        res[level].push_back(node->val);
+        if(node->left) bfs(res,node->left,level+1);
+        if(node->right) bfs(res,node->right,level+1);
+    }
+};
+```
+
 ## 二叉树的层次遍历 II
 ## 二叉树的垂直遍历
 ## 二叉树的垂序遍历
