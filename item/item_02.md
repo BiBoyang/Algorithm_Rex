@@ -7,9 +7,6 @@
 |[145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)  | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0145.md)  |   |
 |[102. 二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)  | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0102.md)  |   |
 |[107. 二叉树的层次遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)   |  [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0107.md) |   |
-|[314. 二叉树的垂直遍历](https://leetcode-cn.com/problems/binary-tree-vertical-order-traversal/)   | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0314.md)  |   |
-|[987. 二叉树的垂序遍历](https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree/)   | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0987.md)  |   |
-
 
 
 
@@ -236,7 +233,7 @@ public·:
 };
 ```
 
-使用队列来暂时保存。
+迭代法使用队列来暂时保存。
 第 0 层只包含根节点 root ，算法实现如下：
 * 初始化队列只包含一个节点 root 和层次编号 0 ： level = 0。
 * 当队列非空的时候：
@@ -280,5 +277,59 @@ public:
 ```
 
 ## 二叉树的层次遍历 II
-## 二叉树的垂直遍历
-## 二叉树的垂序遍历
+自底向上的层次遍历。
+递归法。和正方向层次遍历一样的方法，只不过最后进行调换、
+```C++
+class Solution {
+public:
+    vector<vector<int>> levelOrderBottom(TreeNode* root) {
+        vector<vector<int>> ans;
+        dfs(root,0,ans);
+        reverse(ans.begin(),ans.end());
+        return ans;
+    }
+    
+    void dfs(TreeNode* root,int level,vector<vector<int>>& ans){
+        if(!root) return;
+        if(level >= ans.size()) ans.push_back(vector<int>());
+        ans[level].push_back(root->val);
+        dfs(root->left,level+1,ans);
+        dfs(root->right,level+1,ans);
+    }   
+};
+```
+迭代法。和从上至下的层次遍历一样，只不过最后翻转。
+```C++
+class Solution {
+public:
+    vector<vector<int>> levelOrderBottom(TreeNode* root) {
+        vector<vector<int>> ans;
+        queue<TreeNode*> nodeQueue;
+        if(root) {
+            nodeQueue.push(root);
+        }
+
+        while(nodeQueue.size()){
+            //加入空vector
+            ans.push_back(vector<int>());
+            int cnt = nodeQueue.size();
+            for(int i = 0;i<cnt;++i){
+                TreeNode* cur = nodeQueue.front();
+                nodeQueue.pop();
+                int t = ans.size() - 1;
+                ans[t].push_back(cur->val);
+                if(cur->left) {
+                    nodeQueue.push(cur->left);
+                }
+                if(cur->right) {
+                    nodeQueue.push(cur->right);
+                }
+            }
+        }
+        reverse(ans.begin(), ans.end());
+        return ans;
+    }
+};
+```
+
+
