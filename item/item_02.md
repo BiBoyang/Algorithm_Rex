@@ -190,7 +190,7 @@ public:
             temp = nodeStack.top();
             if(!temp->left && !temp->right) {
                 nodeStack.pop();
-                ans.emplace_back(temp->val);
+                ans.push_back(temp->val);
             }
             if(temp->right) {
                 nodeStack.push(temp->right);
