@@ -53,7 +53,7 @@
 | 0095 |不同的二叉搜索树 II|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0095.md)|medium|
 | 0096|不同的二叉搜索树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0096.md)|medium|
 | 0098 |  验证二叉搜索树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0098.md)|medium|
-|0099|||
+|0099| 恢复二叉搜索树 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0099.md)|hard|
 |0101|对称二叉树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0101.md)|medium|
 |0102|二叉树的层次遍历|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0101.md)|medium|
 |0104|二叉树的最大深度|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0104.md)|medium|
@@ -179,6 +179,7 @@
 | 0095 |不同的二叉搜索树 II|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0095.md)|medium|
 | 0096|不同的二叉搜索树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0096.md)|medium|
 | 0098 |  验证二叉搜索树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0098.md)|medium|
+|0099| 恢复二叉搜索树 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0099.md)|hard|
 |0101|对称二叉树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0101.md)|medium|
 |0102|二叉树的层次遍历|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0102.md)|medium|
 |0104|二叉树的最大深度|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0104.md)|medium|

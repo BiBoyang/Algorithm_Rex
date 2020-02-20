@@ -4,6 +4,43 @@
 请在不改变其结构的情况下，恢复这棵树。
 
 # 解答
+
+## 中序遍历
+
+```C++
+class Solution {
+private:
+    TreeNode* first=nullptr;
+    TreeNode* second=nullptr;
+    TreeNode* pre=new TreeNode(INT_MIN);
+    void helper(TreeNode* root){
+        if(root==nullptr){
+            return;
+        }
+        helper(root->left);
+        if(first==nullptr&&pre->val>root->val){
+            first=pre;
+        }
+        if(first!=nullptr&&pre->val>root->val){
+            second=root;
+        }
+        pre=root;
+        helper(root->right);
+    }
+public:
+    void recoverTree(TreeNode* root) {
+        helper(root);
+        int tmp=first->val;
+        first->val=second->val;
+        second->val=tmp;
+    }
+    
+};
+
+```
+
+
+## 使用Morris Traversal
 ```C++
 /**
  * Definition for a binary tree node.
