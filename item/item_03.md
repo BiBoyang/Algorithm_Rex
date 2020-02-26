@@ -51,7 +51,8 @@ public:
 ```
 
 ## 二叉树的最小深度
-递归法
+递归法。
+也是同样的递归求值。
 ```C++
 class Solution {
 public:
