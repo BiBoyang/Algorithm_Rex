@@ -338,5 +338,16 @@ public:
 ```
 
 # 总结
-我们其实可以发现，对于
+我们其实可以发现，对于递归的求遍历，其实有一套通式。
+```C++
+void dfs(vector<int>& ans,TreeNode* root) {
+        if(root == NULL) return;
+            //ans.push_back(root->val); 前序遍历
+        dfs(ans,root->left);
+            //ans.push_back(root->val); 中序遍历
+        dfs(ans,root->right);
+            //ans.push_back(root->val); 后序遍历
+    }
+
+```
 
