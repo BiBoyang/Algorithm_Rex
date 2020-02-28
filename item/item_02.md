@@ -212,6 +212,7 @@ public:
 * 输出列表称为 levels，当前最高层数就是列表的长度 len(levels)。比较访问节点所在的层次 level 和当前最高层次 len(levels) 的大小，如果前者更大就向 levels 添加一个空列表。
 * 将当前节点插入到对应层的列表 levels[level] 中。
 * 递归非空的孩子节点：bfs(node.left / node.right, level + 1)。
+
 ```C++
 class Solution {
 public·:
@@ -235,6 +236,7 @@ public·:
 
 迭代法使用队列来暂时保存。
 第 0 层只包含根节点 root ，算法实现如下：
+
 * 初始化队列只包含一个节点 root 和层次编号 0 ： level = 0。
 * 当队列非空的时候：
     * 在输出结果 levels 中插入一个空列表，开始当前层的算法。
@@ -242,9 +244,12 @@ public·:
     * 将这些元素从队列中弹出，并加入 levels 当前层的空列表中。
     * 将他们的孩子节点作为下一层压入队列中。
     * 进入下一层 level++。
+    
+    
 
 
 ```C++
+
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
@@ -274,6 +279,7 @@ public:
         return ans;
     }
 };
+
 ```
 
 ## 二叉树的层次遍历 II
