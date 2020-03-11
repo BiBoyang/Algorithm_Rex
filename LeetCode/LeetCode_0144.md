@@ -33,20 +33,23 @@ public:
 ```C++
 class Solution {
 public:
-    vector<int> preorderTraversal(TreeNode* root) {
-        vector<int> res;
-        stack<TreeNode *>nodeStack;
-        while(root || !nodeStack.empty()) {
+    int maxDepth(TreeNode* root) {
+        if(root == NULL) return 0;
+        stack<pair<TreeNode*,int>> NodeStack;
+        int maxdeep = 0,deep = 0;
+        while(root || !NodeStack.empty()) {
             while(root) {
-                nodeStack.push(root);
-                res.push_back(root->val);
+                deep++;
+                NodeStack.push(pair<TreeNode*,int>(root,deep));
                 root = root->left;
             }
-            root = nodeStack.top();
+            root = NodeStack.top().first;
+            deep = NodeStack.top().second;
+            maxdeep = max(maxdeep,deep);
             root = root->right;
-            nodeStack.pop();
+            NodeStack.pop();
         }
-        return res;   
+        return maxdeep;
     }
 };
 ```

@@ -44,27 +44,28 @@ public:
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
-        if(root==NULL) return 0;
-        stack<pair<TreeNode*,int>> s;
-        TreeNode *p = root;
-        int Maxdeep = 0;
-        int deep = 0;
-        
+        if(root == NULL) return 0;
+        stack<pair<TreeNode*,int>> NodeStack;
+        int maxdeep = 0,deep = 0;
         //若栈非空，则说明还有一些节点的右子树尚未探索；若p非空，意味着还有一些节点的左子树尚未探索
-        while(!s.empty() || p != NULL) {
+        while(root || !NodeStack.empty()) {
             //优先往左边走
-            while(p!=NULL) {
+            while(root) {
                 //记录深度
-                s.push(pair<TreeNode*,int>(p,++deep));
-                p=p->left;
+                deep++;
+                NodeStack.push(pair<TreeNode*,int>(root,deep));
+                root = root->left;
             }
-            p = s.top().first;//若左边无路，就预备右拐。右拐之前，记录右拐点的基本信息
-            deep=s.top().second;
-            Maxdeep = max(Maxdeep,deep);//比较当前节点深度和之前存储的最大深度
-            s.pop();//将右拐点出栈；此时栈顶为右拐点的前一个结点。在右拐点的右子树全被遍历完后，会预备在这个节点右拐
-            p=p->right;
+            //若左边无路，就预备右拐。右拐之前，记录右拐点的基本信息
+            root = NodeStack.top().first;
+            deep = NodeStack.top().second;
+            //比较当前节点深度和之前存储的最大深度
+            maxdeep = max(maxdeep,deep);
+            root = root->right;
+            //将右拐点出栈；此时栈顶为右拐点的前一个结点。在右拐点的右子树全被遍历完后，会预备在这个节点右拐
+            NodeStack.pop();
         }
-        return Maxdeep;
+        return maxdeep;
     }
 };
 ```
