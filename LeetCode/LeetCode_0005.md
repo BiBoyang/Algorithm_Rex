@@ -15,8 +15,8 @@
 输出: "bb"
 
 
-## 解答
-#### 方法一
+# 解答
+## 方法一
 动态规划。
 设状态dp[j][i]表示索引j到索引i的子串是否是回文串。则转移方程为：
 ![](https://upload-images.jianshu.io/upload_images/6946981-a5f3dcc2b314fd49.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/799)
@@ -66,7 +66,7 @@ public:
 
 
 
-#### 方法二
+## 方法二
 Manacher 算法。
 ```C++
 class Solution {
