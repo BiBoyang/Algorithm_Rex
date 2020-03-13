@@ -67,6 +67,7 @@ public:
 
 
 ## 方法二
+
 Manacher 算法。
 ```C++
 class Solution {
