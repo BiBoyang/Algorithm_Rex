@@ -86,13 +86,11 @@ public:
 		s = temp;
     }
 	void GetSouceString(string &s) {
-		if (s.empty())
-		{
+		if (s.empty())	{
 			return;
 		}
 		string temp;
-		for (int i = 1; i < s.size(); i += 2)
-		{
+		for (int i = 1; i < s.size(); i += 2) {
 			temp += s[i];
 		}
 		s = temp;
