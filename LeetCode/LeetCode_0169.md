@@ -61,26 +61,53 @@ public:
 
 ```C++
 class Solution {
+        void maxHeapify(vector<int>& nums, int i, int len) {
+        for (; (i << 1) + 1 <= len;) {
+            int lson = (i << 1) + 1;
+            int rson = (i << 1) + 2;
+            int large;
+            if (lson <= len && nums[lson] > nums[i]) {
+                large = lson;
+            } else {
+                large = i;
+            }
+            if (rson <= len && nums[rson] > nums[large]) {
+                large = rson;
+            }
+            if (large != i) {
+                swap(nums[i], nums[large]);
+                i = large;
+            } else {
+                break;
+            }
+        }
+    }
+    void buildMaxHeap(vector<int>& nums, int len) {
+        for (int i = len / 2; i >= 0; --i) {
+            maxHeapify(nums, i, len);
+        }
+    }
+    void heapSort(vector<int>& nums) {
+        int len = (int)nums.size() - 1;
+        buildMaxHeap(nums, len);
+        for (int i = len; i >= 1; --i) {
+            swap(nums[i], nums[0]);
+            len -= 1;
+            maxHeapify(nums, 0, len);
+        }
+    }
 public:
     int majorityElement(vector<int>& nums) {
-        auto cmp = [](int a,int b) {
-            return a > b;
-        };
-        priority_queue<int,vector<int>,decltype(cmp)> heap(cmp);
-        for(auto num : nums) {
-            heap.push(num);
-        }
-        while(heap.size() > (nums.size() + 1) / 2) {
-            heap.pop();
-        }
-        return heap.top();
+        heapSort(nums);
+        return nums[nums.size() / 2];
     }
 };
 
 ```
 空间复杂度：O(nlogn)。
 构建堆的时候空间复杂度为O(n)，在交换并重建堆的过程中，需交换n-1次，而重建堆的过程中，根据完全二叉树的性质，[log2(n-1),log2(n-2)...1]逐步递减，近似为nlogn。
-空间复杂度：o(n)。
+
+空间复杂度：O(1)。
 
 
 ## 方法三：随机数算法。
