@@ -1,8 +1,9 @@
-# 二叉树的刷题之旅（二）：对称、深度、子树、路径等问题
+# 二叉树的刷题之旅（二）：深度问题
 | name  | link  | info  |
 |---|---|---|
 |[104. 二叉树的最大深度](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)     | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0144.md)  |   |
-
+|[111. 二叉树的最小深度](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)     | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0144.md)  |   |
+|[104. 二叉树的最大深度](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)     | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0144.md)  |   |
 
 ## 二叉树的最大深度
 最简单的办法就是使用DFS的递归。
@@ -117,4 +118,25 @@ public:
 时间复杂度：O(n)。
 空间复杂度：O(n)。
 
+
+## N叉树的最大深度
+直接递归。
+```C++
+class Solution {
+public:
+    int maxDepth(Node* root) {
+        int ans = 0;
+        if(root == NULL) {
+            return 0;
+        } else {
+            for(auto child:root->children) {
+                if(child) {
+                    ans = max(ans,maxDepth(child));
+                }
+            }
+        }
+        return ans + 1;
+    }
+};
+```
 
