@@ -20,6 +20,8 @@ public:
     }
 };
 ```
+时间复杂度：O(n)。
+空间复杂度：O(n)。
 我们知道，但凡使用递归解决的问题，都可以考虑一下`栈`。
 所以我们从包含根结点且相应深度为 1 的栈开始。然后我们继续迭代：将当前结点弹出栈并推入子结点。每一步都会更新深度。
 
@@ -27,30 +29,31 @@ public:
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
-        if(root==NULL) return 0;
-        stack<pair<TreeNode*,int>> s;
-        TreeNode *p = root;
-        int Maxdeep = 0;
+        int ans = 0;
+        if(root == NULL) return ans;
+        //这个栈用来记录节点和深度
+        stack<pair<TreeNode*,int>> nodeStack;
         int deep = 0;
-        
-        //若栈非空，则说明还有一些节点的右子树尚未探索；若p非空，意味着还有一些节点的左子树尚未探索
-        while(!s.empty() || p != NULL) {
-            //优先往左边走
-            while(p!=NULL) {
-                //记录深度
-                s.push(pair<TreeNode*,int>(p,++deep));
-                p=p->left;
+        while(root || !nodeStack.empty()) {
+            while(root) {
+                deep++;
+                nodeStack.push(pair<TreeNode*,int>(root,deep));
+                root = root->left;
             }
-            p = s.top().first;//若左边无路，就预备右拐。右拐之前，记录右拐点的基本信息
-            deep=s.top().second;
-            Maxdeep = max(Maxdeep,deep);//比较当前节点深度和之前存储的最大深度
-            s.pop();//将右拐点出栈；此时栈顶为右拐点的前一个结点。在右拐点的右子树全被遍历完后，会预备在这个节点右拐
-            p=p->right;
+            root = nodeStack.top().first;
+            deep = nodeStack.top().second;
+            ans = max(ans, deep);
+            nodeStack.pop();
+            root = root->right;
         }
-        return Maxdeep;
+        return ans;
     }
 };
+
 ```
+时间复杂度：O(n)。
+空间复杂度：O(n)。
+
 
 ## 二叉树的最小深度
 递归法。
@@ -76,8 +79,11 @@ public:
     }
 };
 ```
+时间复杂度：O(n)。
+空间复杂度：O(n)。
 
 迭代法。
+深度优先搜索。
 ```C++
 class Solution {
 public:
@@ -108,6 +114,7 @@ public:
     }
 };
 ```
+时间复杂度：O(n)。
+空间复杂度：O(n)。
 
 
-所以说

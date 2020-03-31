@@ -18,4 +18,65 @@
 ```
 
 # 解答
+递归法。
+也是同样的递归求值。
+```C++
+class Solution {
+public:
+    int minDepth(TreeNode* root) {
+        if(root == NULL) {
+            return 0;
+        }
+        if((root->left == NULL) && (root->right == NULL)) {
+            return 1;
+        }
+        int temp = INT_MAX;
+        if(root->left != NULL) {
+            temp = min(minDepth(root->left),temp);
+        }
+        if(root->right != NULL) {
+            temp = min(minDepth(root->right),temp);
+        }
+        return temp+1;
+    }
+};
+```
+时间复杂度：O(n)。
+空间复杂度：O(n)。
+
+迭代法。
+深度优先搜索。
+```C++
+class Solution {
+public:
+    int minDepth(TreeNode* root) {
+        stack<pair<TreeNode*, int>> NodeStack;
+        if(root == NULL) {
+            return 0;
+        } else {
+            NodeStack.push(pair<TreeNode *,int>(root,1));
+        }
+        int min_depth = INT_MAX;
+        while(!NodeStack.empty()) {
+            pair<TreeNode*, int> current = NodeStack.top();
+            NodeStack.pop();
+            root = current.first;
+            int current_depth = current.second;
+            if((root->left == NULL) && (root->right == NULL)) {
+                min_depth = min(min_depth,current_depth);
+            }
+            if(root->left != NULL) {
+                NodeStack.push(pair<TreeNode*,int>(root->left,current_depth + 1));
+            }
+            if(root->right != NULL) {
+                NodeStack.push(pair<TreeNode*,int>(root->right,current_depth + 1));
+            }
+        }
+        return min_depth;
+    }
+};
+```
+时间复杂度：O(n)。
+空间复杂度：O(n)。
+
 
