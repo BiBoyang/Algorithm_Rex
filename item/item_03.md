@@ -1,9 +1,9 @@
 # 二叉树的刷题之旅（二）：深度问题
 | name  | link  | info  |
 |---|---|---|
-|[104. 二叉树的最大深度](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)     | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0144.md)  |   |
-|[111. 二叉树的最小深度](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)     | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0144.md)  |   |
-|[104. 二叉树的最大深度](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)     | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0144.md)  |   |
+|[104. 二叉树的最大深度](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)     | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0104.md)  |   |
+|[111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)     | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0111.md)  |   |
+|[559. N叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/)     | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0559.md)  |   |
 
 ## 二叉树的最大深度
 最简单的办法就是使用DFS的递归。
