@@ -134,6 +134,7 @@
 | 0801| 使序列递增的最小交换次数|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0801.md)|medium|
 | 0887|鸡蛋掉落|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0887.md)|hard|
 | 0905| 按奇偶排序数组|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0905.md)|easy|
+| 0912| 排序数组|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0912.md)|medium|
 | 0969| 煎饼排序 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0969.md)|medium|
 |0987|二叉树的垂序遍历|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0987.md)|medium|
 | 0995 | K连续位的最小翻转次数 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0995.md)|hard|
