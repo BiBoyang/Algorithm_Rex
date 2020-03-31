@@ -1,7 +1,4 @@
 # 算法和数据结构记录
-[移步wiki](https://github.com/BiBoyang/Algorithm_Rex/wiki)
-
-难度 
 
 ![](https://raw.githubusercontent.com/BiBoyang/Algorithm_Rex/master/Image/B_Rex_01.png)
 
@@ -9,6 +6,7 @@
 # 专项练习
 * [**螺旋矩阵三连**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_01.md)     
 * [**二叉树遍历**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_02.md)
+* [**二叉树的深度问题**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_03.md)
 
 # 题目
 
