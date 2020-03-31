@@ -16,6 +16,7 @@
 二叉树是一种更为典型的树树状结构。如它名字所描述的那样，二叉树是每个节点最多有两个子树的树结构，通常子树被称作“左子树”和“右子树”。
 树节点的声明在结构上类似于双链表的声明：在声明中，一个节点就是由   **Key(关键字)** 加上两个指向 **其他节点的指针(Left和Right)** 组成的结构。
 遍历二叉树，我们有四种方式。
+
 * 先序遍历 
   对节点的处理工作是在它的诸儿子节点被处理之前进行的；首先访问根节点，然后遍历左子树，最后遍历右子树。实际上是DFS。
 * 后序遍历  
@@ -171,9 +172,46 @@ public:
 };
 ```
 
-迭代法。从根节点开始依次迭代，弹出栈顶元素输出到输出列表中，然后依次压入它的所有孩子节点，按照从上到下、从右至左的顺序依次压入栈中。
+迭代法。
+方法一，正向。
+```C++
+class Solution {
+public:
+    vector<int> postorderTraversal(TreeNode* root) {
+        if(!root) return {};
+        stack<TreeNode*>nodeStack;
+        vector<int> ans;
+        nodeStack.push(root);
+        while(!nodeStack.empty()){
+            //除叶子节点外，每个节点被访问2次
+            TreeNode* temp = nodeStack.top();
+            root = temp;
+            while(temp->left){
+                //有左子树，继续往左
+                temp = temp->left;
+                root->left = NULL;
+                root = temp;
+                nodeStack.push(temp);
+            }
+            if(temp->right){
+                //如果没有左子树，是否有右子树
+                temp = temp->right;
+                root->right=NULL;
+                root=temp;
+                nodeStack.push(temp);
+            } else{
+                //没有左子树也没有右子树，这个节点就是最优的
+                ans.push_back(temp->val);
+                nodeStack.pop();
+            }
+        }
+        return ans;
+    }
+};
+```
+方法二：反向操作。
+从根节点开始依次迭代，弹出栈顶元素输出到输出列表中，然后依次压入它的所有孩子节点，按照从上到下、从右至左的顺序依次压入栈中。
 因为深度优先搜索后序遍历的顺序是从下到上、从左至右，所以需要将输出列表逆序输出。
-
 ```C++
 class Solution {
 public:
