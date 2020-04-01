@@ -63,31 +63,29 @@ public:
 我们这里要知道一个结论。
 因为中序遍历的遍历顺序是：左子节点->根节点->右子节点。
 所以，二叉搜索树的中序遍历必然是严格递增的。
+
 ```C++
 class Solution {
 public:
     bool isValidBST(TreeNode* root) {
         vector<int> res;
-		if(root == NULL) {
-            return true;
-		} else {
-			inorderTraversal(root,res);
-			if(res.size()==1){ 
-				return true;
+        if(root ==NULL) return true;
+        inorderTraversal(root, res);
+        int len = res.size();
+        if(len == 1) return true;
+        for(int i = 0;i<len -1;i++) {
+            if(res[i] >= res[i+1]) {
+                return false;
             }
-			for(int i=0;i<res.size()-1;i++){
-				if(res[i] >= res[i+1]) {
-					return false;
-                }
-			}
-			return true;
-		}
+            //在这里不能直接判断是true，因为有可能是空节点
+        }
+        return true;
     }
-    void inorderTraversal(TreeNode* root,vector<int>& res) {
-        if(!root) return;
+    void inorderTraversal(TreeNode *root,vector<int>& res) {
+        if(root == NULL) return ;
         inorderTraversal(root->left,res);
         res.push_back(root->val);
-        inorderTraversal(root->right,res);
+        inorderTraversal(root->right, res);
     }
 };
 ```
