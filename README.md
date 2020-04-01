@@ -118,6 +118,7 @@
 |0543|二叉树的直径|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0543.md)|easy|
 |0547|朋友圈|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0547.md)|medium|
 | 0557 | 反转字符串中的单词 III |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0557.md)|easy|
+|0559| N叉树的最大深度 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0559.md)  |  easy |
 |0567|字符串的排列|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0567.md)|medium|
 |0599|两个列表的最小索引总和 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0599.md)|easy|
 |0647| 回文子串 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0647.md)|medium|
@@ -176,23 +177,24 @@
 
 | 题号 | 题目(中) | MyWiki |
 | --- | --- | --- |
-| 0094 | 二叉树的中序遍历 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0094.md)|medium | 
-| 0095 |不同的二叉搜索树 II|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0095.md)|medium|
-| 0096|不同的二叉搜索树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0096.md)|medium|
-| 0098 |  验证二叉搜索树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0098.md)|medium|
-|0099| 恢复二叉搜索树 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0099.md)|hard|
-|0101|对称二叉树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0101.md)|medium|
-|0102|二叉树的层次遍历|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0102.md)|medium|
-|0104|二叉树的最大深度|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0104.md)|medium|
-|0105|从前序与中序遍历序列构造二叉树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0105.md)|medium|
-|0107|二叉树的层次遍历 II|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0107.md)|easy|
-|0111|二叉树的最小深度 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0111.md)  |easy |
-|0144|二叉树的前序遍历|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0144.md)|medium|
+| 0094 | 二叉树的中序遍历 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0094.md)|
+| 0095 |不同的二叉搜索树 II|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0095.md)|
+| 0096|不同的二叉搜索树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0096.md)|
+| 0098 |  验证二叉搜索树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0098.md)|
+|0099| 恢复二叉搜索树 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0099.md)|
+|0101|对称二叉树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0101.md)|
+|0102|二叉树的层次遍历|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0102.md)|
+|0104|二叉树的最大深度|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0104.md)|
+|0105|从前序与中序遍历序列构造二叉树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0105.md)|
+|0107|二叉树的层次遍历 II|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0107.md)|
+|0111|二叉树的最小深度 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0111.md)  |
+|0144|二叉树的前序遍历|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0144.md)|
 |0145|二叉树的后序遍历|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0145.md)|
-|0226|翻转二叉树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0226.md)|easy|
+|0226|翻转二叉树|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0226.md)|
 | 0235 | 二叉搜索树的最近公共祖先 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0235.md)|
 | 0236 | 二叉树的最近公共祖先 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0236.md)|
-|0543|二叉树的直径|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0543.md)|easy|
+|0543|二叉树的直径|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0543.md)|
+|0559| N叉树的最大深度 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0559.md)  |  
 |0652| 寻找重复的子树 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0652.md)|
 
 
