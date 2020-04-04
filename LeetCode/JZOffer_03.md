@@ -17,20 +17,42 @@
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
-	    unordered_map<int, int> hashmap = {};   
-        for(int i=0;i<nums.size();i++) {
-            if(hashmap[nums[i]] == 0) {
-                hashmap[nums[i]]++;
-            }else{
-                return nums[i];
+        unordered_map<int,int> map;
+        for(auto num:nums) {
+            if(map[num] == 0) {
+                map[num]++;
+            } else {
+                return num;
             }
-        }   
-        return 0;
+        }
+        return -1;
     }
 };
 ```
+或者
+```
+class Solution {
+public:
+    int findRepeatNumber(vector<int>& nums) {
+        unordered_map<int,int> hashMap;
+        for(int i =0;i< nums.size();i++) {
+            if(hashMap.count(nums[i]) != 0) {
+                return nums[i];
+            } else {
+                hashMap[nums[i]] = 1;
+            }
+        }
+        return -1;
+    }
+};
+```
+
+
 时间复杂度：O(n)。
-空间复杂度：O(1)。
+空间复杂度：O(n)。
+
+
+
 
 ## 方法二
 如果当前数字和当前下表不一样，我们就把他们交换。
@@ -51,3 +73,6 @@ public:
     }
 };
 ```
+时间复杂度：O(n)。
+
+空间复杂度：O(1)。
