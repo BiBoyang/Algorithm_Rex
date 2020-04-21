@@ -18,18 +18,24 @@ B是A的子结构， 即 A中有出现和B相同的结构和节点值。
   /
  1
 ```
+
 返回 true，因为 B 与 A 的一个子树拥有相同的结构和节点值。
 
 示例 1：
+
 ```
 输入：A = [1,2,3], B = [3,1]
 输出：false
 ```
+
 示例 2：
-```
+
+```C++
 输入：A = [3,4,5,1,2], B = [4,1]
 输出：true
 ```
+
+
 
 ## 解答
 
@@ -40,21 +46,21 @@ B是A的子结构， 即 A中有出现和B相同的结构和节点值。
 ```C++
 class Solution {
 public:
-    bool helper(TreeNode *A,TreeNode *B){
+    bool dfs(TreeNode *A,TreeNode *B){
         if(A == NULL || B == NULL) {
             return B == NULL ? true:false;
         }
         if(A->val != B->val) {
             return false;
         }
-        return helper(A->left,B->left) && helper(A->right,B->right);
+        return dfs(A->left,B->left) && dfs(A->right,B->right);
     }
     
     bool isSubStructure(TreeNode* A, TreeNode* B) {
         if(A == NULL || B == NULL) {
             return false;
         }
-        return helper(A,B) || isSubStructure(A->left,B) || isSubStructure(A->right, B);
+        return dfs(A,B) || isSubStructure(A->left,B) || isSubStructure(A->right, B);
     }
 };
 ```
