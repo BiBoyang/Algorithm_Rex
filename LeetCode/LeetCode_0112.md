@@ -46,33 +46,35 @@ public:
 ## 迭代法
 使用栈
 ```C++
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
 class Solution {
 public:
     bool hasPathSum(TreeNode* root, int sum) {
-        if (root == nullptr) return false;
-        
-        stack<pair<TreeNode *, int>> __stack;
-        __stack.push(make_pair(root, sum));
-
-        while (!__stack.empty()) {
-            auto &item = __stack.top();
-            auto node = item.first;
-            sum = item.second;
-            __stack.pop();
-
-            if (node->left == nullptr && node->right == nullptr && node->val == sum) {
+        if(root == NULL) return false;
+        stack<pair<TreeNode *, int>> nodeStack;
+        nodeStack.push(make_pair(root,sum));
+        while(!nodeStack.empty()) {
+            TreeNode *node = nodeStack.top().first;
+            sum = nodeStack.top().second;
+            nodeStack.pop();
+            if(node->left == NULL && node->right == NULL && node->val == sum) {
                 return true;
             }
-
-            if (node->left) {
-                __stack.push(make_pair(node->left, sum - node->val));
+            if(node->left) {
+                nodeStack.push(make_pair(node->left,sum - node->val));
             }
-
-            if (node->right) {
-                __stack.push(make_pair(node->right, sum - node->val));
+            if(node->right) {
+                nodeStack.push(make_pair(node->right, sum - node->val));
             }
         }
-
         return false;
     }
 };
