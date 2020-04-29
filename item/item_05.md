@@ -36,5 +36,66 @@
 
 # 解答
 
-这道题
+## 递归法
+最直接的方法就是利用递归，遍历整棵树：如果当前节点不是叶子，对它的所有孩子节点，递归调用 hasPathSum 函数，其中 sum 值减去当前节点的权值；如果当前节点是叶子，检查 sum 值是否为 0，也就是是否找到了给定的目标和。
 
+```C++
+class Solution {
+public:
+    bool hasPathSum(TreeNode* root, int sum) {
+        if(root == NULL) return false;
+        sum = sum - root->val;
+        if((root->left == NULL) && (root->right == NULL)) {
+            if(sum == 0) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        return hasPathSum(root->left, sum) || hasPathSum(root->right, sum);
+    }
+};
+```
+* 时间复杂度: O(n), 需要访问每一个结点，所以时间复杂度为O(n)
+* 空间复杂度: 最好情况，当树是完全二叉树时，递归的深度为log(n), 所以最多需要log(n)的函数调用栈空间；最坏情况，当树退化为链表时，递归的深度为n, 需要n的函数调用中空间。
+
+
+## 迭代法
+使用栈
+```C++
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    bool hasPathSum(TreeNode* root, int sum) {
+        if(root == NULL) return false;
+        stack<pair<TreeNode *, int>> nodeStack;
+        nodeStack.push(make_pair(root,sum));
+        while(!nodeStack.empty()) {
+            TreeNode *node = nodeStack.top().first;
+            sum = nodeStack.top().second;
+            nodeStack.pop();
+            if(node->left == NULL && node->right == NULL && node->val == sum) {
+                return true;
+            }
+            if(node->left) {
+                nodeStack.push(make_pair(node->left,sum - node->val));
+            }
+            if(node->right) {
+                nodeStack.push(make_pair(node->right, sum - node->val));
+            }
+        }
+        return false;
+    }
+};
+```
+
+* 时间复杂度: O(n), 需要访问每一个结点，所以时间复杂度为O(n)
+* 空间复杂度:当树不平衡的最坏情况下是 O(N) 。在最好情况（树是平衡的）下是 O(log⁡N)。
