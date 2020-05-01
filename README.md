@@ -5,8 +5,10 @@
 
 # 专项练习
 * [**螺旋矩阵三连**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_01.md)     
-* [**二叉树遍历**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_02.md)
-* [**二叉树的深度问题**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_03.md)
+* [**二叉树的刷题之旅（一）：各种遍历**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_02.md)
+* [**二叉树的刷题之旅（二）：深度问题**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_03.md)
+* [**二叉树的刷题之旅（三）：路径问题**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_05.md)
+* [**字符串压缩与解压缩**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_06.md)
 
 # 题目
 
