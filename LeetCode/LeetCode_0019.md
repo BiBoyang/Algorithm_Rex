@@ -32,8 +32,9 @@ public:
         ListNode *dummy = new ListNode(0);
         dummy->next = head;        
         ListNode*slow = dummy,*fast = dummy;
-    
-        for(int i=1;i <= n+1;i++) {
+        
+        //这段要好好理解
+        for(int i= 1;i <= n+1;i++) {
             fast = fast->next;
         }
         
