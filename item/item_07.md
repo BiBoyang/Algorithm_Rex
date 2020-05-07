@@ -1,8 +1,6 @@
 # 链表刷题之旅（一）： 双指针
   链表是一种物理存储结构上非连续，非顺序的存储结构，数据元素的逻辑顺序是通过链表中的指针链接次序实现的。
   
-  
-  
   实现起来很简单，每一个结构均含有表元素和指向包含该元素后继元的结构的指针（Next 指针）。 这种也叫单链表。
   如果每一个结构均含有表元素和指向包含该元素前继元的结构的指针以及后继元的结构的指针，这叫叫做双链表。
   
@@ -16,7 +14,26 @@
 
 链表的插入或删除不需要移动其他元素，时间复杂度是O(1)；但是如果中间有查找动作，那么时间复杂度还是：O(n)。
 
-# 经典题
+# 经典双指针
+
+## 模板
+```C++
+// Initialize slow & fast pointers
+ListNode* slow = head;
+ListNode* fast = head;
+/**
+ * Change this condition to fit specific problem.
+ * Attention: remember to avoid null-pointer error
+ **/
+while (slow && fast && fast->next) {
+    slow = slow->next;          // move slow pointer one step each time
+    fast = fast->next->next;    // move fast pointer two steps each time
+    if (slow == fast) {         // change this condition to fit specific problem
+        return true;
+    }
+}
+return false;   // change return value to fit specific problem
+```
 
 ## 环形链表 I
 给定一个链表，判断链表中是否有环。
@@ -206,3 +223,6 @@ public:
     }
 };
 ```
+
+* 时间复杂度：O(n)
+* 空间复杂度：O(1)。
