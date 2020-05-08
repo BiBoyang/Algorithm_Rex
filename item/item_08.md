@@ -48,9 +48,65 @@ public:
 ```
 
 # 反转链表 II
+反转从位置 m 到 n 的链表。请使用一趟扫描完成反转。
+
+说明:
+1 ≤ m ≤ n ≤ 链表长度。
+
+示例:
+```C++
+输入: 1->2->3->4->5->NULL, m = 2, n = 4
+输出: 1->4->3->2->5->NULL
+```
+## 解答
+
+迭代 地进行上述过程，即可完成问题的要求。下面来看看算法的步骤。
+
+1. 如上所述，我们需要两个指针 dummy 和 pre。
+2. dummy 指针初始化为 -1，pre 指针初始化为链表的 head。
+3. 一步步地向前推进 pre 指针，dummy 指针跟随其后。
+4. 如此推进两个指针，直到 pre 指针到达从链表头起的第 m 个结点。这就是我们反转链表的起始位置。
+5. 然后在m-n的区间内，进行翻转
 
 
+
+```C++
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* reverseBetween(ListNode* head, int m, int n) {
+        ListNode *dummy = new ListNode(0);
+        dummy->next = head;
+        ListNode *pre = dummy;
+        for(int i = 0;i<m-1;i++) {
+            pre = pre->next;
+        }
+        ListNode *cur = pre->next;
+        for(int i = m;i<n;i++){
+            //使用头插法
+            ListNode *temp = cur->next;
+            cur->next = temp->next;
+            temp->next = pre->next;
+            pre->next =  temp;
+        }
+        return dummy->next;
+    }
+};
+
+```
+* 时间复杂度：O(n)
+* 空间复杂度：O(1)。
 
 # 移除链表元素
+
+
+
 # 奇偶链表
 # 回文链表
