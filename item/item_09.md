@@ -87,6 +87,26 @@ public:
 
 
 # 删除排序链表中的重复元素
+给定一个排序链表，删除所有重复的元素，使得每个元素只出现一次。
+## 解答
+```C++
+class Solution {
+public:
+    ListNode* deleteDuplicates(ListNode* head) {
+        ListNode *cur = head;
+        while(cur && cur->next) {
+            if(cur->next->val == cur->val) {
+                cur->next = cur->next->next;
+            } else {
+                cur = cur->next;
+            }
+        }
+        return head;
+    }
+};
+
+```
+
 # 删除排序链表中的重复元素II
 
 # 从链表中删除总和值为零的连续节点
