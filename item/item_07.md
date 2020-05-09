@@ -45,6 +45,13 @@ return false;   // change return value to fit specific problem
 
 为了表示给定链表中的环，我们使用整数 pos 来表示链表尾连接到链表中的位置（索引从 0 开始）。 如果 pos 是 -1，则在该链表中没有环。
 
+值得注意的是：
+1. 在调用 next 字段之前，始终检查节点是否为空。
+
+获取空节点的下一个节点将导致空指针错误。例如，在我们运行 fast = fast.next.next 之前，需要检查 fast 和 fast.next 不为空。
+
+2. 仔细定义循环的结束条件。
+
 ### 解答
 使用快慢指针。
 ```C++
