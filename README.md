@@ -230,14 +230,23 @@
 | 题号 | 题目(中) | MyWiki |
 | --- | --- | --- |
 | 0002 | 两数相加 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0002.md)|medium|
-|0021|合并两个有序链表|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0021.md)|easy|
-|0023|合并K个排序链表|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0023.md)|hard|
+| 0021 |合并两个有序链表|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0021.md)|easy|
+| 0023 |合并K个排序链表|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0023.md)|hard|
+| 0061 |旋转链表  |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0061.md)|medium|
+| 0082 |删除排序链表中的重复元素 II|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0082.md)|medium|
+| 0083 |	删除排序链表中的重复元素  |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0083.md)|medium|
+| 0092 | 反转链表 II |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0092.md)|medium|
 | 0141| 环形链表|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0141.md)|easy|
 | 0142 | 环形链表II|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0142.md)|medium|
 | 0148 | 排序链表 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0148.md)|medium|
 | 0160 | 相交链表 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0160.md)|easy|
+| 0203| 移除链表元素  |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0203.md)|easy|
 | 0206|  反转链表|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0206.md)|easy|
-
+| 0234| 	回文链表 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0234.md)|easy|
+| 0237 | 	删除链表中的节点   |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0237.md)|easy|
+| 0328| 奇偶链表  |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0328.md)|medium|
+| 0445 | 两数相加 II  |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0445.md)|medium|
+|0707 | 设计链表   |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0706.md)|medium|
 
 
 # 剑指Offer
