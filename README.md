@@ -243,14 +243,32 @@
 # 剑指Offer
 | 题号 | 题目(中) | MyWiki |
 | --- | --- | --- |
-||||
-||||
-||||
-||||
-||||
-||||
-
-
+|	面试题03|	数组中重复的数字  |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_03.md)|
+|	面试题04|	二维数组中的查找|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_04.md)|
+|	面试题05|		替换空格    |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_05.md)|
+|	面试题06|	从尾到头打印链表    |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_06.md)|
+|	面试题07|	重建二叉树    |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_07.md)|
+|	面试题09|	用两个栈实现队列    |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_09.md)|
+|	面试题10_1|	斐波那契数列 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_10_1.md.md)|
+|	面试题10_2|		青蛙跳台阶问题    |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_10_2.md)|
+|	面试题11|	旋转数组的最小数字   |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_11.md)|
+|	面试题12|		矩阵中的路径    |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_12.md)|
+|	面试题15|		二进制中1的个数      |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_15.md)|
+|	面试题18|		删除链表的节点      |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_18.md)|
+|	面试题21|	调整数组顺序使奇数位于偶数前面|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_21.md)|
+|	面试题23|	链表中倒数第k个节点|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_23.md)|
+|	面试题24|	反转链表 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_24.md)|
+|	面试题25|	合并两个排序的链表 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_25.md)|
+|	面试题26|	树的子结构 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_26.md)|
+|	面试题27|	二叉树的镜像|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_27.md)|
+|	面试题28|	对称的二叉树   |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_28.md)|
+|	面试题29|	顺时针打印矩阵  |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_29.md)|
+|	面试题30|	包含min函数的栈   |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_30.md)|
+|	面试题31|	栈的压入、弹出序列   |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_31.md)|
+|	面试题32_1|从上到下打印二叉树  |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_32_1.md)|
+|	面试题32_2|	从上到下打印二叉树 II  |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_32_2.md)|
+|	面试题32_3|从上到下打印二叉树 III   |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_32_3.md)|
+|	面试题33|二叉搜索树的后序遍历序列 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_33.md)|
 
 
 
