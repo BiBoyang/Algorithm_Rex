@@ -67,7 +67,7 @@ public:
 
 
 #### 方法二
-分治。
+直接使用合并两个排序链表的方法。
 ```C++
 /**
  * Definition for singly-linked list.
@@ -89,23 +89,65 @@ public:
 
     }
 private:
-    ListNode *mergeTwoLists(ListNode *l1,ListNode *l2) {
-        if(l1 == NULL) {
-             return l2;
+    ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
+        ListNode *res = new ListNode(0);
+        ListNode *temp = res;
+        while(l1 != NULL && l2 != NULL) {
+            if(l1->val < l2->val) {
+                temp->next = l1;
+                l1 = l1->next;
+            } else {
+                temp->next = l2;
+                l2 = l2->next;
+            }
+            temp = temp->next;
         }
-        if(l2==NULL) {
-            return l1;
-        }
-        if(l1->val<l2->val) { 
-            l1->next = mergeTwoLists(l1->next,l2); 
-            return l1;
-        } else { 
-            l2->next = mergeTwoLists(l1,l2->next); 
-            return l2; 
-        }
+        temp->next = l1 == NULL ? l2 : l1;
+        return res->next;
     }
 };
-```
 
-时间复杂度： O(Nlog⁡k) ，其中 k 是链表的数目。
-空间复杂度：O(1)
+```
+* 时间复杂度：O(k * k * n)
+
+* 空间复杂度是O(1)。
+
+# 方法三
+当然，这么依次合并，显然可以是用二分法进行优化。我们可以在中间再加一层，进行二分。
+
+```C++
+
+class Solution {
+public:
+    ListNode* mergeKLists(vector<ListNode*>& lists) {
+        return merge(lists, 0, lists.size() - 1);
+    }
+private:
+    ListNode* merge(vector <ListNode*> &lists, int l, int r) {
+        if (l == r) return lists[l];
+        if (l > r) return nullptr;
+        int mid = (l + r) >> 1;
+        return mergeTwoLists(merge(lists, l, mid), merge(lists, mid + 1, r));
+    }
+
+    ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
+        ListNode *res = new ListNode(0);
+        ListNode *temp = res;
+        while(l1 != NULL && l2 != NULL) {
+            if(l1->val < l2->val) {
+                temp->next = l1;
+                l1 = l1->next;
+            } else {
+                temp->next = l2;
+                l2 = l2->next;
+            }
+            temp = temp->next;
+        }
+        temp->next = l1 == NULL ? l2 : l1;
+        return res->next;
+    }
+};
+
+```
+* 时间复杂度则不是 O(k * k * n)了，而是O(kn * logk)
+* 空间复杂度是O(logk)。
