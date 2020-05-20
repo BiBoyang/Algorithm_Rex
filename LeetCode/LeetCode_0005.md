@@ -4,26 +4,28 @@
 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。
 
 示例 1：
-
+```
 输入: "babad"
 输出: "bab"
 注意: "aba" 也是一个有效答案。
-
+```
 示例 2：
-
+```
 输入: "cbbd"
 输出: "bb"
-
+```
 
 # 解答
 ## 方法一
 动态规划。
+
 设状态dp[j][i]表示索引j到索引i的子串是否是回文串。则转移方程为：
 ![](https://upload-images.jianshu.io/upload_images/6946981-a5f3dcc2b314fd49.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/799)
 我们利用这个去进行计算。
 即：
+
 从单一的回文，到两个回文、三个回文往上增长。
-P(i,j)=(P(i+1,j−1) and Si​==Sj​)
+P(i,j) = (P(i+1,j−1) and Si​ == Sj​)
 
 ```C++
 class Solution {
@@ -61,9 +63,8 @@ public:
     }
 };
 ```
-时间复杂度：O(n^2 )
-
-空间复杂度：O(1)
+* 时间复杂度：O(n * n)
+* 空间复杂度：O(1)
 
 
 
@@ -100,6 +101,7 @@ public:
         if(s.empty())
             return "";
 		//添加#号
+    
         HandleString(s);
         
 		int size = s.size();

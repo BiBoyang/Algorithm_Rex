@@ -8,20 +8,21 @@
 你可以假设 nums1 和 nums2 不会同时为空。
 
 示例 1:
-
+```
 nums1 = [1, 3]
 nums2 = [2]
 
 则中位数是 2.0
-
+```
 示例 2:
-
+```
 nums1 = [1, 2]
 nums2 = [3, 4]
 
 则中位数是 (2 + 3)/2 = 2.5
+```
 
-## 解答
+# 解答
 ```C++
 class Solution {
 public:
@@ -64,7 +65,6 @@ public:
                 RMin2 = nums2[mid2 / 2];
             }
             
-
 			if (LMax1 > RMin2) {
 				Right = mid1 - 1;
             } else if (LMax2 > RMin1) {
