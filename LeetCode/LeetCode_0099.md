@@ -5,34 +5,35 @@
 
 # 解答
 
-## 中序遍历
+## 方法一 
+中序遍历。
 
 ```C++
 class Solution {
 private:
-    TreeNode* first=nullptr;
-    TreeNode* second=nullptr;
-    TreeNode* pre=new TreeNode(INT_MIN);
+    TreeNode* first = nullptr;
+    TreeNode* second = nullptr;
+    TreeNode* pre = new TreeNode(INT_MIN);
     void helper(TreeNode* root){
-        if(root==nullptr){
+        if(root == nullptr){
             return;
         }
         helper(root->left);
-        if(first==nullptr&&pre->val>root->val){
+        if(first == nullptr && pre->val > root->val){
             first=pre;
         }
-        if(first!=nullptr&&pre->val>root->val){
-            second=root;
+        if(first != nullptr && pre->val > root->val){
+            second = root;
         }
-        pre=root;
+        pre = root;
         helper(root->right);
     }
 public:
     void recoverTree(TreeNode* root) {
         helper(root);
-        int tmp=first->val;
-        first->val=second->val;
-        second->val=tmp;
+        int tmp = first->val;
+        first->val = second->val;
+        second->val = tmp;
     }
     
 };
