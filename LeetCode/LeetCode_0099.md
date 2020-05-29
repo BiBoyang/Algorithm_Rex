@@ -31,9 +31,9 @@ private:
 public:
     void recoverTree(TreeNode* root) {
         helper(root);
-        int tmp = first->val;
+        int temp = first->val;
         first->val = second->val;
-        second->val = tmp;
+        second->val = temp;
     }
     
 };
