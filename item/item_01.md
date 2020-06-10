@@ -61,7 +61,7 @@ public:
             for(int i = left;i<=right;i++) {
                res.push_back(matrix[up][i]);
             }
-            //上面大于下面
+            //如果上面大于下面
             up++;
             if(up > down)break;
             
