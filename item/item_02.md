@@ -1,12 +1,12 @@
 # 二叉树的刷题之旅（一）：各种遍历
 
-| name  | link  | info  |
-|---|---|---|
-|[144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)     | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0144.md)  |   |
-|[94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)   | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0094.md)  |   |
-|[145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)  | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0145.md)  |   |
-|[102. 二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)  | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0102.md)  |   |
-|[107. 二叉树的层次遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)   |  [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0107.md) |   |
+| name  | link  |
+|---|---|
+|[144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)     | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0144.md)  |   
+|[94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)   | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0094.md)  |   
+|[145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)  | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0145.md)  |   
+|[102. 二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)  | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0102.md)  |   
+|[107. 二叉树的层次遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)   |  [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0107.md) |   
 
 
 
