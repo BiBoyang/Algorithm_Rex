@@ -1,11 +1,11 @@
 # 二叉树的刷题之旅（二）：深度问题
-| name  | link  | info  |
-|---|---|---|
-|[104. 二叉树的最大深度](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)     | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0104.md)  |   |
-|[111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)     | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0111.md)  |   |
-|[559. N叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/)     | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0559.md)  |   |
+[104. 二叉树的最大深度](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)     
 
-## 二叉树的最大深度
+[111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)     
+
+[559. N叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/)     
+
+# 二叉树的最大深度
 最简单的办法就是使用DFS的递归。
 ```C++
 class Solution {
@@ -21,9 +21,11 @@ public:
     }
 };
 ```
-时间复杂度：O(n)。
-空间复杂度：O(n)。
+* 时间复杂度：O(n)。
+* 空间复杂度：O(n)。
+
 我们知道，但凡使用递归解决的问题，都可以考虑一下`栈`。
+
 所以我们从包含根结点且相应深度为 1 的栈开始。然后我们继续迭代：将当前结点弹出栈并推入子结点。每一步都会更新深度。
 
 ```C++
