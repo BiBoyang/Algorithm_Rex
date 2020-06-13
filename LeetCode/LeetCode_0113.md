@@ -28,21 +28,25 @@
 ```C++
 class Solution {
 public:
+	vector<vector<int>> res;
+	vector<int> current_total;
+	
+	void dfs(TreeNode *root,int sum) {
+		if(root == NULL) return ;
+		sum = sum - root->val;
+		current_total.push_back(root->val);
+		if(root->left == NULL && root->right == NULL && sum == 0) {
+			res.push_back(current_total);
+		}
+		if(root->left) dfs(root->left,sum);
+		if(root->right) dfs(root->right,sum);
+
+		current_total.pop_back();
+	}
+
     vector<vector<int>> pathSum(TreeNode* root, int sum) {
-        vector<vector<int>> res;
-        vector<int> temp;
-        dfs(root, sum, res, temp);
+        if(root) dfs(root,sum);
         return res;
-    }
-    void dfs(TreeNode *root,int sum,vector<vector<int>>& total,vector<int> thisTotal) {
-        if(root == NULL) return ;
-        sum = sum - root->val;
-        thisTotal.push_back(root->val);
-        if(!root->left &&!root->right&&sum==0){
-            total.push_back(thisTotal);
-        }
-        dfs(root->left, sum, total, thisTotal);
-        dfs(root->right, sum, total, thisTotal);
     }
 };
 ```
