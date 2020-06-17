@@ -73,27 +73,21 @@ public:
 ```C++
 #include <iostream>
 #include <string.h>
-
 using namespace std;
-
 void unZip(string inPut) {
     int len = (int)inPut.length();
     if(len == 0) return;
-    
     int inPutNum = 0;
     string outPutString = "";
-    
     for(int i = 0;i<len;i++) {
         if(inPut[i] - '0' >= 0 && inPut[i] - '0' <= 9) {
             inPutNum = inPutNum * 10 + inPut[i] - '0';
-            
         } else if(inPut[i] >= 'a' && inPut[i] <= 'z') {
             if(inPutNum > 0) {
                 if(inPut[i] == inPut[i+1]) {
                     cout << "!Error" << endl;
                     return;
                 }
-                    
                 for(int j = 0;j < inPutNum;j++) {
                     outPutString += inPut[i];
                 }
@@ -101,7 +95,6 @@ void unZip(string inPut) {
             } else {
                 //三个字符重复
                 if(inPut[i] == inPut[i+1]) {
-                    
                     if(inPut[i+1] == inPut[i+2]) {
                         cout << "!Error" << endl;
                         return;
@@ -111,7 +104,6 @@ void unZip(string inPut) {
             }
         }
     }
-    
     cout << "" << outPutString<< endl;
 }
 
