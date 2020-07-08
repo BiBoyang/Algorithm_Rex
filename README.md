@@ -26,9 +26,9 @@
 | 0001 | 两数之和 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0001.md)|easy|
 | 0002 | 两数相加 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0002.md)|medium|
 | 0003 | 无重复字符最长子串 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0003.md)|medium|
-| 0004|寻找两个有序数组的中位数|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0004.md)|hard|
+| 0004 |寻找两个有序数组的中位数|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0004.md)|hard|
 | 0005 | 最长回文子串 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0005.md)|medium|
-|0006| Z 字形变换|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0006.md)|medium|
+| 0006 | Z 字形变换|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0006.md)|medium|
 | 0007 | 整数反转 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0007.md)|easy|
 | 0008 | 字符串转换整数 (atoi) | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0008.md)|medium|
 | 0009 | 回文数 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0009.md)|easy|
@@ -37,15 +37,17 @@
 | 0018 |四数之和|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0018.md)|medium|
 | 0019 |删除链表的倒数第N个节点|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0019.md)|medium|
 | 0020 | 有效的括号 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0020.md)|easy|
-|0021|合并两个有序链表|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0021.md)|easy|
-|0023|合并K个排序链表|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0023.md)|hard|
-|0026|删除排序数组中的重复项|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0026.md)|easy|
-|0027|移除元素|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0027.md)|easy|
-|0033|搜索旋转排序数组|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0033.md)|medium|
+| 0021 |合并两个有序链表|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0021.md)|easy|
+| 0023 |合并K个排序链表|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0023.md)|hard|
+| 0026 |删除排序数组中的重复项|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0026.md)|easy|
+| 0027 |移除元素|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0027.md)|easy|
+| 0032 | 最长有效括号 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0032.md)| hard |
+| 0033 |搜索旋转排序数组|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0033.md)|medium|
 | 0034 | 在排序数组中查找元素的第一个和最后一个位置 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0034.md)|medium|
-|0036|有效的数独|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0036.md)|medium|
-|0042|接雨水|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0042.md)|hard|
-|0043|字符串相乘|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0043.md)|medium|
+| 0036 |有效的数独|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0036.md)|medium|
+| 0042 |接雨水|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0042.md)|hard|
+| 0043 |字符串相乘|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0043.md)|medium|
+| 0044 | |
 |0049| 字母异位词分组 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0049.md)|medium|
 |0053|最大子序和|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0053.md)|easy|
 | 0054 |	螺旋矩阵|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0054.md)|midium|
@@ -247,6 +249,15 @@
 | 0328| 奇偶链表  |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0328.md)|medium|
 | 0445 | 两数相加 II  |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0445.md)|medium|
 |0707 | 设计链表   |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0706.md)|medium|
+
+# 动态规划
+| 题号 | 题目(中) | MyWiki |
+| --- | --- | --- |
+| 0005 | 最长回文子串 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0005.md)|medium|
+| 0032 | 最长有效括号 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0032.md)| hard |
+| 0322| 零钱兑换|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0322.md)|medium|
+
+
 
 
 # 剑指Offer
