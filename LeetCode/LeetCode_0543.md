@@ -18,6 +18,9 @@
 
 # 解答
 递归求解。
+我们定义一个递归函数 dfs(node) 计算当前节点为根节点的最大深度，函数返回该节点为根的子树的深度。先递归调用左儿子和右儿子求得它们为根的子树的深度 LeftLen 和 RightLen ，则该节点为根的子树的深度即为 max(LeftLen, RightLen) + 1
+
+
 ```C++
 /**
  * Definition for a binary tree node.
@@ -30,20 +33,19 @@
  */
 class Solution {
 public:
-    int dfs(TreeNode *root,int& ans) {
+    int ans = 0;
+    int dfs(TreeNode *root) {
         if(root == NULL) return 0;
-        int LeftLen = dfs(root->left, ans);
-        int RightLen = dfs(root->right, ans);
-        
-        ans  = max(ans, LeftLen+RightLen);
-        return max(LeftLen, RightLen) + 1;
+        int LeftLen = dfs(root->left);
+        int RightLen = dfs(root->right);
+        ans  = max(ans, LeftLen+RightLen); // 计算d_node即L+R+1 并更新ans
+        return max(LeftLen, RightLen) + 1;// 返回该节点为根的子树的深度
     }
 
     int diameterOfBinaryTree(TreeNode* root) {
         if(root==NULL)  return 0;
-        int cnt=0;//保存最大直径
-        dfs(root,cnt);
-        return cnt;
+        dfs(root);
+        return ans;
     }
 };
 ```
