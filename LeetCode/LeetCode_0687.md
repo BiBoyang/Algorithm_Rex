@@ -40,10 +40,8 @@ class Solution {
 public:
     int help(TreeNode* node, int &ans) {
     if (node == nullptr) return 0;
-
     int left = help(node->left, ans);
     int right = help(node->right, ans);
-
     left = (node->left != nullptr && node->val == node->left->val) ? left + 1 : 0;
     right = (node->right != nullptr && node->val == node->right->val) ? right + 1 : 0;
 
