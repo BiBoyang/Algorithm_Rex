@@ -38,22 +38,31 @@
 ```C++
 class Solution {
 public:
-    int help(TreeNode* node, int &ans) {
-    if (node == nullptr) return 0;
-    int left = help(node->left, ans);
-    int right = help(node->right, ans);
-    left = (node->left != nullptr && node->val == node->left->val) ? left + 1 : 0;
-    right = (node->right != nullptr && node->val == node->right->val) ? right + 1 : 0;
+    int helper(TreeNode* node, int &ans) {
+        if (node == NULL) return 0;
 
-    ans = max(ans, left + right);
-    return max(left, right);
-}
+        int leftLen = helper(node->left, ans);
+        int rightLen = helper(node->right, ans);
 
-int longestUnivaluePath(TreeNode* root) {
-    int ans = 0;
-    help(root, ans);
-    return ans;
-}
+        if(node->left && node->val == node->left->val) {
+            leftLen =  leftLen + 1;
+        } else {
+            leftLen = 0;
+        }
 
+        if(node->right && node->val == node->right->val) {
+            rightLen = rightLen + 1;
+        } else {
+            rightLen = 0;
+        }
+
+        ans = max(ans, leftLen + rightLen);
+        return max(leftLen, rightLen);
+    }
+    int longestUnivaluePath(TreeNode* root) {
+        int ans = 0;
+        helper(root, ans);
+        return ans;
+    }
 };
 ```
