@@ -52,4 +52,34 @@ public:
     }
 };
 ```
+* 时间复杂度：O(logN)；
+* 空间复杂度：O(logN)
 
+
+## 方法二：
+快慢指针的方法
+```C++
+class Solution {
+public:
+    int getNext(int n) {
+        int totalSum = 0;
+        while (n > 0) {
+            int d = n % 10;
+            n = n / 10;
+            totalSum = totalSum + d * d;
+        }
+        return totalSum;
+    }
+    bool isHappy(int n) {
+        int slow = n;
+        int fast = getNext(n);
+        while(fast != 1 && slow != fast) {
+            slow = getNext(slow);
+            fast = getNext(getNext(fast));
+        }
+        return fast == 1;
+    }
+};
+```
+* 时间复杂度：O(logN)
+* 空间复杂度：O(1)
