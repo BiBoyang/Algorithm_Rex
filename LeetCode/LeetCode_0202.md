@@ -44,7 +44,7 @@ public:
     }
     bool isHappy(int n) {
         unordered_set<int> hashSet;
-        while(n != 1 && hashSet.count(n)==0 ) {
+        while(n != 1 && hashSet.count(n) ==0 ) {
             hashSet.insert(n);
             n = getNext(n);
         }
