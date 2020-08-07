@@ -27,3 +27,50 @@ hashSet.contains(2);    // 返回  false (已经被删除)
 * 不要使用内建的哈希集合库。
 
 # 解答
+
+```C++
+class MyHashSet {
+public:    
+    vector<list<int>> arr;
+    /** Initialize your data structure here. */
+    MyHashSet() {
+        arr.resize(10001);
+    }
+    
+    void add(int key) {
+        int index = key % arr.size();
+        if(contains(key)) return ;
+        else arr[index].push_back(key);
+    }
+    
+    void remove(int key) {
+        int index = key % arr.size();
+        auto ite = arr[index].begin();
+        for(; ite != arr[index].end(); ite++){
+            if((*ite) == key) 
+                break;
+        }
+        if(ite != arr[index].end())
+            arr[index].erase(ite);
+    }
+    
+    /** Returns true if this set contains the specified element */
+    bool contains(int key) {
+        int index = key % arr.size();
+        auto ite = arr[index].begin();
+        for(; ite != arr[index].end(); ite++){
+            if((*ite) == key) 
+                break;
+        }
+        return ite!=arr[index].end();
+    }
+};
+
+/**
+ * Your MyHashSet object will be instantiated and called as such:
+ * MyHashSet* obj = new MyHashSet();
+ * obj->add(key);
+ * obj->remove(key);
+ * bool param_3 = obj->contains(key);
+ */
+```
