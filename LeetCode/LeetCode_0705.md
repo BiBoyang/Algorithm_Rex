@@ -28,6 +28,8 @@ hashSet.contains(2);    // 返回  false (已经被删除)
 
 # 解答
 
+这里使用 list 作为拉链法。
+
 ```C++
 class MyHashSet {
 public:
@@ -77,4 +79,60 @@ public:
  * obj->remove(key);
  * bool param_3 = obj->contains(key);
  */
+```
+
+或者直接自建链表来创建：
+```C++
+class MyHashSet {
+    vector<ListNode*> hashArray;
+    int n = 10007;
+public:
+    MyHashSet() {
+        hashArray = vector<ListNode*>(n);
+    }
+
+    void add(int key) {
+        int index = key % n;
+        if (hashArray[index] == nullptr) {
+            hashArray[index] = new ListNode(key);
+        } else {
+            ListNode *node = hashArray[index];
+            if (node->val == key) return;
+            while (node->next != NULL) {
+                if (node->next->val == key) return;
+                node = node->next;
+            }
+            node->next = new ListNode(key);
+        }
+    }
+
+    void remove(int key) {
+        int index = key % n;
+        if (hashArray[index] == nullptr) return;
+        if (hashArray[index]->val == key) {
+            hashArray[index] = hashArray[index]->next;
+        } else {
+            ListNode* pre = hashArray[index];
+            ListNode* node = pre->next;
+            while (node != nullptr) {
+                if (node->val == key) {
+                    pre->next = node->next;
+                    return;
+                }
+                pre = node;
+                node = node->next;
+            }
+        }
+    }
+
+    bool contains(int key) {
+        int index = key % n;
+        ListNode* node = hashArray[index];
+        while (node != nullptr) {
+            if (node->val == key) return true;
+            node = node->next;
+        }
+        return false;
+    }
+};
 ```
