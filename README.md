@@ -254,6 +254,17 @@
 | 0445 | 两数相加 II  |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0445.md)|medium|
 | 0707 | 设计链表 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0706.md)|medium|
 
+##  Sliding Window
+
+| 题号 | 题目(中) | MyWiki |
+| --- | --- | --- |
+| 0003 | 无重复字符最长子串 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0003.md)|medium|
+| 0567 | 字符串的排列 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0567.md)|medium|
+| 0995 | K 连续位的最小翻转次数 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0995.md)|hard|
+| 1004 | 最大连续 1 的个数III |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_1004.md)|medium|
+
+
+
 # 动态规划
 | 题号 | 题目(中) | MyWiki |
 | --- | --- | --- |
