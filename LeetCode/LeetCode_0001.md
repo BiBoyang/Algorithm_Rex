@@ -66,12 +66,10 @@ public:
         unordered_map<int,int>hashTwoMap;
         vector<int>res;
         //一次遍历，查找 target-x 对应的数字是否存在        
-        for (int i = 0; i < nums.size(); ++i) 
-        {
+        for (int i = 0; i < nums.size(); ++i) {
             int t = target - nums[i];
             //判断对应的数字在哈希表中是否存在
-            if(hashTwoMap.count(nums[i]) !=0)
-            {
+            if(hashTwoMap.count(nums[i]) !=0) {
                 res.push_back(hashTwoMap[nums[i]]);
                 res.push_back(i);
                 break;
