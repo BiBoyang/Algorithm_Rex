@@ -30,42 +30,46 @@ hashSet.contains(2);    // 返回  false (已经被删除)
 
 ```C++
 class MyHashSet {
-public:    
-    vector<list<int>> arr;
+public:
+    vector<list<int>> hashArray;
     /** Initialize your data structure here. */
     MyHashSet() {
-        arr.resize(10001);
+        hashArray.resize(10007);
     }
     
     void add(int key) {
-        int index = key % arr.size();
-        if(contains(key)) return ;
-        else arr[index].push_back(key);
+        int index = key % hashArray.size();
+        if(contains(key)) {
+            return;
+        } else {
+            hashArray[index].push_back(key);
+        }
     }
     
     void remove(int key) {
-        int index = key % arr.size();
-        auto ite = arr[index].begin();
-        for(; ite != arr[index].end(); ite++){
-            if((*ite) == key) 
+        int index = key % hashArray.size();
+        auto item  = hashArray[index].begin();
+        for(;item != hashArray[index].end();item++) {
+            if((*item) == key) {
                 break;
+            }
         }
-        if(ite != arr[index].end())
-            arr[index].erase(ite);
+        if(item != hashArray[index].end()) {
+            hashArray[index].erase(item);
+        }
     }
     
     /** Returns true if this set contains the specified element */
     bool contains(int key) {
-        int index = key % arr.size();
-        auto ite = arr[index].begin();
-        for(; ite != arr[index].end(); ite++){
-            if((*ite) == key) 
+        int index = key % hashArray.size();
+        auto item = hashArray[index].begin();
+        for(; item != hashArray[index].end(); item++){
+            if((*item) == key) 
                 break;
         }
-        return ite!=arr[index].end();
+        return item != hashArray[index].end();
     }
 };
-
 /**
  * Your MyHashSet object will be instantiated and called as such:
  * MyHashSet* obj = new MyHashSet();
