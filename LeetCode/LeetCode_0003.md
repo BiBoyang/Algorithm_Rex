@@ -26,9 +26,8 @@
 ## 方法一：hash法
 
 直接把字符加入hash表，然后判断。
-时间复杂度：O(n^3) 。
 
-空间复杂度：O(min(n,m))，我们需要 O(k)的空间来检查子字符串中是否有重复字符，其中 k 表示 Set 的大小。而 Set 的大小取决于字符串 n 的大小以及字符集/字母 m 的大小。
+我们需要 O(k)的空间来检查子字符串中是否有重复字符，其中 k 表示 Set 的大小。而 Set 的大小取决于字符串 n 的大小以及字符集/字母 m 的大小。
 
 ```C++
 class Solution {
@@ -55,12 +54,20 @@ public:
     }
 };
 ```
+* 时间复杂度：O(n ^ 3) 。
+* 空间复杂度：O(min(n,m))，
+
+
 ## 方法二
 
 上一个方法有着明显的问题，我们要对hash表做多次操作。我们可不可以优化一下呢？
-可以的。
+
+我们可以用滑动窗口继续优化一下。
+
 注意点
-> * `left = max(left, hashMap[s[right]]);`，这里要注意，这里因为是在循环内第一行，所以我们要明白，这里的 hashMap[s[right]] 使用的实际上是上一轮的值，如果这里有值了，说明已经存在相同的字符了，至少是第二轮
+> * `left = max(left, hashMap[s[right]]);`，
+> * 这里要注意，这里因为是在循环内第一行，所以我们要明白，这里的 hashMap[s[right]] 使用的实际上是上一轮的值，如果这里有值了，说明已经存在相同的字符了，至少是第二轮；
+> * 即：hashMap[s[right]] 表示重复的字符串的上一次出线的位置，当遇到它，left 指针就要移动到它的位置。
 
 ```C++
 class Solution {
@@ -70,7 +77,7 @@ public:
         unordered_map<char,int> hashMap;
         int maxLength = 0;
         int left = 0;//每个无重复字符串的起始
-        for(int right = 0;right<s.size();right++) {
+        for(int right = 0;right < s.size();right++) {
             left = max(left, hashMap[s[right]]);
             hashMap[s[right]] = right + 1;
             maxLength = max(maxLength,right - left + 1);
@@ -79,6 +86,11 @@ public:
     }
 };
 ```
+* 时间复杂度：O(n)。n 是字符串长度
+* 空间复杂度：O(N)。N 是字符集的长度。
+
+
+
 ## 方法三
 记录上一个点的方法。
 我们创建一个字符串 **abcd1bc**.
