@@ -18,6 +18,8 @@
 # 解答
 
 ```C++
+
+
 class Solution {
 public:
     int lengthOfLongestSubstringTwoDistinct(string s) {
