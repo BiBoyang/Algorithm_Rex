@@ -18,32 +18,26 @@
 * 不考虑答案输出的顺序。
 
 # 解答
-使用哈希表.
+使用哈希表。
+
+遍历字符串，然后将每个字符串排序。相同排序的放到一个桶子里。
 ```C++
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
-        vector<vector<string>> res;  
-        int sub=0;  //结果vector的下标值
-        string tmp; //临时string
-        unordered_map<string,int> work; //判断排序后单词是否存在，即字母组成是否一致
-        for(auto str:strs)
-        {
-            tmp=str;
-            sort(tmp.begin(),tmp.end());
-            if(work.count(tmp))
-            {
-               res[work[tmp]].push_back(str);
-            }
-            else
-            {
-                vector<string> vec(1,str);
-                res.push_back(vec);
-                work[tmp]=sub++;
-            }
+        unordered_map<string, vector<string>> map;
+        for(auto str: strs){
+            string temp = str;
+            sort(temp.begin(), temp.end());
+            map[temp].push_back(str);
         }
-        return res;
+        vector<vector<string>> ans;
+        for(auto str: map){
+            ans.push_back(str.second);
+        }
+        return ans;
     }
 };
-
 ```
+* 时间复杂度：O(NKlogK) 。N 是strs 的长度，K 是字符串最大的那个的长度。
+* 空间复杂度：O(NK)。
