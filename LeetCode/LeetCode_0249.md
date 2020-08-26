@@ -24,3 +24,25 @@
 ```
 
 # 解答
+这道题和 LeetCode_0049 字母异位词分组 其实非常类似，我们可以将所有的字符串，都转化为 a 开头的字符串，然后再将它们一同归类
+
+```C++
+class Solution {
+public:
+    vector<vector<string>> groupStrings(vector<string>& strings) {
+        vector<vector<string>> res;
+        unordered_map<string, vector<string>> hashmap;
+        for(string s : strings){
+            string str = s;
+            for(int i = 0; i < str.size(); i++) {
+                str[i] = (str[i] - s[0] + 26) % 26 +'a';
+            }
+            hashmap[str].push_back(s);
+        }
+        for(auto i : hashmap) {
+            res.push_back(i.second);
+        }
+        return res;
+    }
+};
+```
