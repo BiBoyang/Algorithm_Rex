@@ -35,37 +35,43 @@
 
 # 解答
 
+我们可以将任何路径（具有相同值的节点）看作是最多两个从其根延伸出的箭头。
+
+具体地说，路径的根将是唯一节点，因此该节点的父节点不会出现在该路径中，而箭头将是根在该路径中只有一个子节点的路径。
+
+然后，对于每个节点，我们想知道向左延伸的最长箭头和向右延伸的最长箭头是什么？我们可以用递归来解决这个问题。
+
+令 leftLen 为从节点 node 延伸出的最长箭头的长度。如果 node->left 存在且与节点 node 具有相同的值，则该值就会是 leftLen + 1。在 node->right 存在的情况下也是一样。
+
+当我们计算箭头长度时，候选答案将是该节点在两个方向上的箭头之和。我们将这些候选答案记录下来，并返回最佳答案。
+
+
 ```C++
 class Solution {
 public:
-    int helper(TreeNode* node, int &ans) {
+    int ans = 0;
+    int helper(TreeNode* node ) {
         if (node == NULL) return 0;
-
-        int leftLen = helper(node->left, ans);
-        int rightLen = helper(node->right, ans);
-
+        int leftLen = helper(node->left);
+        int rightLen = helper(node->right);
         if(node->left && node->val == node->left->val) {
             leftLen =  leftLen + 1;
         } else {
             leftLen = 0;
         }
-
         if(node->right && node->val == node->right->val) {
             rightLen = rightLen + 1;
         } else {
             rightLen = 0;
         }
-
         ans = max(ans, leftLen + rightLen);
         return max(leftLen, rightLen);
     }
     int longestUnivaluePath(TreeNode* root) {
-        int ans = 0;
-        helper(root, ans);
+        helper(root);
         return ans;
     }
-};
-```
+};```
 
 * 时间复杂度：O(N)。N 是树种节点的个数。
 * 空间复杂度：O(H)。H 是树的高度，递归调用栈会打到 H 的深度。
