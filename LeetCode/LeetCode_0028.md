@@ -35,7 +35,56 @@ public:
 
 ## 方法二
 
-方法一有个问题，所有的子串都要一一配对，但是很明显，只有子串的第一个字符跟 needle 字符串第一个字符相同的时候才需要比较。
+KMP
+
+```C++
+class Solution {
+public:
+    vector<int> getNext(string str) {
+        int len = str.size();
+        vector<int> next;
+        next.push_back(-1);
+        int i = 0,j = -1;
+        while(i < len){
+            if( (j == -1) || str[i] == str[j]){
+                i++;
+                j++;
+                next.push_back(j);
+            } else {
+                j = next[j];
+            }
+        }
+        return next;
+    }
+        int strStr(string haystack, string needle) {
+        if(needle.empty())
+            return 0;
+        
+        int i=0;//源串
+        int j=0;//子串
+        int len1 = haystack.size();
+        int len2 = needle.size();
+        vector<int> next;
+        next=getNext(needle);
+        while((i<len1)&&(j<len2))
+        {
+            if((j==-1)||(haystack[i]==needle[j]))
+            {
+                i++;
+                j++;
+            }
+            else
+            {
+                j=next[j];//获取下一次匹配的位置
+            }
+        }
+        if(j==len2)
+            return i-j;
+        
+        return -1;
+    }
+};
+```
 
 
 
