@@ -87,45 +87,33 @@ public:
 ```
 
 
-
-
-
 ## 方法三
 ```C++
 class Solution {
 public:
     int strStr(string haystack, string needle) {
-        int lenh = haystack.size();
-        int lenn = needle.size();
+        if(needle.empty())
+            return 0;
         
-        if(lenn == 0) return 0;
-        if(lenh == 0 || lenh < lenn) return -1;
-        int i = 0;
+        int hayLen = haystack.size();
+        int nedLen = needle.size();
+        int i = 0,j = 0;
+        int k = 0;
+        int m = nedLen;//匹配时，文本串中参与匹配的元素的下一位
         
-        while(i < (lenh - lenn + 1)) {
-            int c = 0, l = 0, rev = false;
-            for(int j = 0;j < lenn;j++) {
-                if(j>0 && haystack[i+j] == needle[0] && l<1) {
-                        rev = true;
-                        c = j;
-                        l++;
+        for(;i<hayLen;) {
+            if(haystack[i] == needle[j]) {
+                if(j == nedLen - 1) return i-j;
+                i++;
+                j++;
+            } else {
+                for(k = nedLen - 1;k >= 0;k--) {
+                    if(needle[k]==haystack[m]) break;
                 }
-
-                if(haystack[i+j] == needle[j]){
-                    if(j == lenn-1) {
-                        return i;
-                    }
-                } else {
-                    if(j == 0) {
-                        i++;
-                        break;
-                    } else if(rev) {
-                        i += c;
-                        break;
-                    }
-                i += j;
-                break;
-                }
+                i = m-k;//i为下一次匹配源串开始首位 Sunday算法核心：最大限度跳过相同元素
+                j = 0;
+                m = i + nedLen;
+                if(m > hayLen) return -1;
             }
         }
         return -1;
