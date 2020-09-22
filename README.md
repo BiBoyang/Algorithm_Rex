@@ -3,20 +3,6 @@
 ![](https://raw.githubusercontent.com/BiBoyang/Algorithm_Rex/master/Image/B_Rex_01.png)
 
 
-# 专项练习
-* [**螺旋矩阵三连**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_01.md)     
-* [**二叉树的刷题之旅（一）：各种遍历**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_02.md)
-* [**二叉树的刷题之旅（二）：深度问题**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_03.md)
-* [**二叉树的刷题之旅（三）：路径问题**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_05.md)
-* [**字符串压缩与解压缩**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_06.md)
-* [**链表刷题之旅（一）： 双指针**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_07.md)
-* [**链表刷题之旅（二）：反转链表**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_08.md)
-* [**链表刷题之旅（三）:移除链表元素**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_09.md)
-* [**链表刷题之旅（四）：奇偶链表 & 回文链表**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_10.md)
-* [**链表刷题之旅（五）：两数相加**](https://github.com/BiBoyang/Algorithm_Rex/blob/master/item/item_11.md)
- 
-
-
 
 # 题目
 
@@ -124,7 +110,7 @@
 | 0260 | 只出现一次的数字 III |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0260.md)|medium|
 | 0263 | 丑数 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0263.md)|easy|
 | 0264 | 丑数II |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0264.md)|medium|
-| 0300 | 最长上升子序列 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0300.md)|medium|
+| 0300 | 最长上升子序列🚧 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0300.md)|medium|
 | 0314 | 二叉树的垂直遍历 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0314.md)|medium|
 | 0319 | 灯泡开关 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0319.md)|medium|
 | 0322 | 零钱兑换 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0322.md)|medium|
@@ -267,6 +253,7 @@
 
 
 # 动态规划
+
 | 题号 | 题目(中) | MyWiki |
 | --- | --- | --- |
 | 0005 | 最长回文子串 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0005.md)|medium|
@@ -286,7 +273,7 @@
 | 0221 | 最大正方形 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0221.md)|medium|
 master/LeetCode/LeetCode_0263.md)|easy|
 | 0264 | 丑数II |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0264.md)|medium|
-| 0300 | 最长上升子序列 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0300.md)|medium|
+| 0300 | 最长上升子序列🚧 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0300.md)|medium|
 | 0322 | 零钱兑换 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0322.md)|medium|
 | 0410| 分割数组的最大值 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0410.md)|hard|
 | 0516 | 最长回文子序列 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0516.md)|medium|
@@ -298,6 +285,7 @@ master/LeetCode/LeetCode_0263.md)|easy|
 
 
 # 剑指Offer
+
 | 题号 | 题目(中) | MyWiki |
 | --- | --- | --- |
 |	面试题03 |	数组中重复的数字  |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/JZOffer_03.md)|
