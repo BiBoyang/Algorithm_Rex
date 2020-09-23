@@ -31,11 +31,16 @@ dp[i] 表示位置 i 的连续递增子序列长度，初始化为 1，因为每
 
 则状态转移方程为：
 
+<!--
 $ dp[i]
   \begin{cases}
   dp[i-1]+1  &nums[i-1] < nums[i]\\
   dp[i] = 1  &nums[i-1] \geq\ nums[i]\\
   \end{cases}$
+  -->
+
+![](https://github.com/BiBoyang/Algorithm_Rex/blob/master/Image/leetcode_0674_00.png?raw=true)
+
 
 ```C++
 class Solution {
