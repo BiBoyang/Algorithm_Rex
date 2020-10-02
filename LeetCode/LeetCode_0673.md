@@ -31,6 +31,43 @@
 class Solution {
 public:
     int findNumberOfLIS(vector<int>& nums) {
+        int len = nums.size();
+        if(len == 0) return 0;
+        vector<int> lengths(len,1);
+        vector<int> counts(len,1);
+        int res = 0;
+        int maxLength = 1; 
+        // 0 < j < i
+        for(int i = 1;i < len;i++) {
+            for(int j = 0;j < i;j++) {
+                if(nums[i] > nums[j]) {
+                    if(lengths[i] < lengths[j] + 1) {
+                        lengths[i] = lengths[j] + 1;
+                        counts[i] = counts[j];
+                    } else if(lengths[i] == lengths[j] + 1) {
+                        counts[i] = counts[i] + counts[j];
+                    }
+                }
+            
+            }
+            maxLength = max(maxLength,lengths[i]);
+        }
+
+        for(int i = 0;i < len;i++) {
+            if(lengths[i] == maxLength) {
+                res += counts[i];
+            }
+        }
+        return res;
+    }
+};
+```
+
+或者
+```C++
+class Solution {
+public:
+    int findNumberOfLIS(vector<int>& nums) {
         if (nums.empty()) return 0;
         int N = nums.size();
         // pair<int, int> 分别为最长递增长度与对应的数目
@@ -62,5 +99,5 @@ public:
 
 
 
-还有 贪心算法、树状动态规划方法
+还有 贪心算法、树状动态规划方法。
 
