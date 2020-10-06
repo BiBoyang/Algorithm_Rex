@@ -39,7 +39,8 @@
 | 0049 | 字母异位词分组 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0049.md)| medium |
 | 0053 | 最大子序和 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0053.md)| easy |
 | 0054 | 螺旋矩阵 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0054.md)| midium |
-| 0060 | 第 k 个排列 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0060.md)|medium|
+| 0059 | 螺旋矩阵II |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0059.md)| midium |
+| 0060 | 第 k 个排列 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0060.md)|hard|
 | 0061 | 旋转链表 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0061.md)|medium|
 | 0062 | 不同路径| [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0062.md)|medium|
 | 0063 | 不同路径 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0063.md)|medium|
