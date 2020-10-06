@@ -43,13 +43,14 @@
 | 0060 | 第 k 个排列 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0060.md)|hard|
 | 0061 | 旋转链表 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0061.md)|medium|
 | 0062 | 不同路径| [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0062.md)|medium|
-| 0063 | 不同路径 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0063.md)|medium|
+| 0063 | 不同路径II | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0063.md)|medium|
 | 0066 | 加一 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0066.md)|easy|
 | 0067 | 二进制求和 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0067.md)|easy|
 | 0069 | x 的平方根  |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0069.md)|easy|
 | 0070 | 爬楼梯 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0070.md)| easy |
 | 0071 | 简化路径 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0071.md)|medium|
 | 0074 | 搜索二维矩阵 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0074.md)|medium|
+| 0078 | 子集   | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0078.md)|medium|
 | 0081 | 搜索旋转排序数组II |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0081.md)|medium|
 | 0082 | 删除排序链表中的重复元素 II |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0082.md)|medium|
 | 0083 |	 删除排序链表中的重复元素  |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0083.md)|medium|
