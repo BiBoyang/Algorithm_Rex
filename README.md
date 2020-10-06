@@ -97,6 +97,7 @@
 | 0188 | 买卖股票的最佳时机 IV |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0188.md)|hard|
 | 0189 | 旋转数组 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0189.md)|easy|
 | 0191 | 位1的个数 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0191.md)|easy|
+| 0202 | 快乐数   |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0202.md)|easy|
 | 0203 | 移除链表元素 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0203.md)|easy|
 | 0205 | 同构字符串 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0205.md)|easy|
 | 0206 | 反转链表|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0206.md)|easy|
@@ -113,11 +114,14 @@
 | 0235 | 二叉搜索树的最近公共祖先 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0235.md)|easy|
 | 0236 | 二叉树的最近公共祖先 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0236.md)|medium|
 | 0237 | 删除链表中的节点 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0237.md)|easy|
-| 240 | 搜索二维矩阵II |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0240.md)|medium|
+| 0240 | 搜索二维矩阵II |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0240.md)|medium|
+| 0257 | 二叉树的所有路径   |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0257.md)|easy|
 | 0260 | 只出现一次的数字 III |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0260.md)|medium|
 | 0263 | 丑数 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0263.md)|easy|
 | 0264 | 丑数II |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0264.md)|medium|
+| 0298 | 二叉树最长连续序列  |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0298.md)|medium|
 | 0300 | 最长上升子序列🚧 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0300.md)|medium|
+| 0309 | 最佳买卖股票时机含冷冻期   |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0309.md)|medium|
 | 0314 | 二叉树的垂直遍历 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0314.md)|medium|
 | 0319 | 灯泡开关 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0319.md)|medium|
 | 0322 | 零钱兑换 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0322.md)|medium|
@@ -129,6 +133,7 @@
 | 0387 | 字符串中的第一个唯一字符 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0387.md)|easy|
 | 0410 | 分割数组的最大值 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0410.md)|hard|
 | 0414 | 第三大的数 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0414.md)|easy|
+| 0424 | 替换后的最长重复字符   |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0424.md)|medium|
 | 0436 | 寻找右区间|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0436.md)|medium|
 | 0442 | 数组中重复的数据 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0442.md)|medium|
 | 0445 | 两数相加 II  |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0445.md)|medium|
@@ -141,13 +146,16 @@
 | 0518 | 零钱兑换II |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0518.md)|medium|
 | 0543 | 二叉树的直径 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0543.md)|easy|
 | 0547 | 朋友圈 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0547.md)|medium|
+| 0549 | 二叉树中最长的连续序列   |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0549.md)| medium |
 | 0557 | 反转字符串中的单词 III |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0557.md)|easy|
 | 0559 | N叉树的最大深度 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0559.md)  |  easy |
 | 0567 | 字符串的排列 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0567.md)|medium|
 | 0599 | 两个列表的最小索引总和 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0599.md)|easy|
 | 0647 | 回文子串 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0647.md)|medium|
 | 0652| 寻找重复的子树 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0652.md)|medium|
+| 0673 | 最长递增子序列的个数   |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0673.md)|medium|
 | 0674 | 最长连续递增序列 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0674.md)|easy|
+| 0687 | 最长同值路径 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0687.md)|easy|
 | 0695 | 岛屿的最大面积 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0695.md)|medium|
 | 0705 | 设计哈希集合 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0705.md)|easy|
 | 0706 | 设计哈希映射 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0706.md)|easy|
@@ -159,6 +167,7 @@
 | 0796 | 旋转字符串 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0796.md)|medium|
 | 0801 | 使序列递增的最小交换次数 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0801.md)|medium|
 | 0836 | 矩形重叠 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0836.md)|easy|
+| 0885 | 螺旋矩阵 III   |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0885.md)|medium|
 | 0887 | 鸡蛋掉落 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0887.md)|hard|
 | 0905 | 按奇偶排序数组 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0905.md)|easy|
 | 0912 | 排序数组 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0912.md)|medium|
