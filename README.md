@@ -28,6 +28,7 @@
 | 0023 | 合并K个排序链表 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0023.md)|hard|
 | 0026 | 删除排序数组中的重复项 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0026.md)|easy|
 | 0027 | 移除元素 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0027.md)|easy|
+| 0028 | 实现 strStr() |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0028.md)|easy|
 | 0032 | 最长有效括号 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0032.md)| hard |
 | 0033 | 搜索旋转排序数组 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0033.md)|medium|
 | 0034 | 在排序数组中查找元素的第一个和最后一个位置 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0034.md)|medium|
@@ -319,3 +320,6 @@ master/LeetCode/LeetCode_0263.md)|easy|
 
 # CodeForces
 
+| 题号 | 题目(中) | MyWiki |
+| --- | --- | --- |
+|	1A |	Theatre Square  |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/CF_0001A.md)|
