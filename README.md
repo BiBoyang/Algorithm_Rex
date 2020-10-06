@@ -187,6 +187,8 @@
 | 1281 | 整数的各位积和之差 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_1281.md)|easy|
 | 1342 | 将数字变成 0 的操作次数 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_1342.md)|easy|
 | 1443 | 收集树上所有苹果的最少时间 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_1443.md)|medium|
+| 1556 | 千位分隔数 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_1556.md)|easy|
+| 1566 | 重复至少 K 次且长度为 M 的模式 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_1566.md)|easy|
 
 ## String || Math
 
