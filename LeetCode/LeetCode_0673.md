@@ -21,7 +21,7 @@
 
 这道题可以使用 线性动态规划。
 
-用 dp[i] 表示以 nums[i] 为结尾的递推序列的长度，用cnt[i]表示以nums[i]为结尾的递推序列的个数，初始化都赋值为1，只要有数字，那么至少都是1。
+对于 nums[i]，
 
 
 
@@ -52,7 +52,6 @@ public:
             }
             maxLength = max(maxLength,lengths[i]);
         }
-
         for(int i = 0;i < len;i++) {
             if(lengths[i] == maxLength) {
                 res += counts[i];
