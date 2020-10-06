@@ -67,6 +67,7 @@
 | 0104 | 二叉树的最大深度 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0104.md)|medium|
 | 0105 | 从前序与中序遍历序列构造二叉树 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0105.md)|medium|
 | 0107 | 二叉树的层次遍历 II |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0107.md)|easy|
+| 0108 | 将有序数组转换为二叉搜索树 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0108.md)|easy|
 | 0111 | 二叉树的最小深度 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0111.md)  |easy |
 | 0112 |	 路径总和   | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0112.md)  |easy |
 | 0113 |	路径总和 II | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0113.md)  |easy |
@@ -76,6 +77,7 @@
 | 0123 | 买卖股票的最佳时机 III | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0123.md)|hard|
 | 0124 | 二叉树中的最大路径和   | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0124.md)|hard|
 | 0128 | 最长连续序列 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0128.md)|hard|
+| 0129 | 求根到叶子节点数字之和 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0129.md)| medium |
 | 0136 | 只出现一次的数字 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0136.md)|easy|
 | 0137 | 只出现一次的数字II |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0137.md)|medium|
 | 0141 | 环形链表 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0141.md)|easy|
@@ -86,9 +88,11 @@
 | 0148 | 排序链表 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0148.md)|medium|
 | 0151 | 翻转字符串里的单词 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0151.md)|medium|
 | 0155 | 最小栈 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0155.md)|easy|
+| 0159 | 至多包含两个不同字符的最长子串   |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0159.md)|medium|
 | 0160 | 相交链表 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0160.md)|easy|
 | 0167 | 两数之和II-输入有序数组 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0167.md)|easy|
 | 0169 | 求众数 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0169.md)|easy|
+| 0174 | 地下城游戏   |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0169.md)|easy|
 | 0179 | 最大数 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0179.md)|medium|
 | 0188 | 买卖股票的最佳时机 IV |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0188.md)|hard|
 | 0189 | 旋转数组 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0189.md)|easy|
