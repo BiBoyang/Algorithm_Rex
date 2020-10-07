@@ -20,12 +20,12 @@
 
 状态转移方程：
 <!--dp[i] = max(dp[j] + 1,dp[i])  if(1 <= j <  i，nums[j] < nums[i])-->
-$ dp[i] = 
+<!--$ dp[i] = 
   \begin{cases}
   max(dp[j] + 1,dp[i])  &if(1 <= j <  i，nums[j] < nums[i])\\
-  \end{cases}$
+  \end{cases}$-->
 
-
+![](https://github.com/BiBoyang/Algorithm_Rex/blob/master/Image/leetcode_0300.png?raw=true)
 
 
 
