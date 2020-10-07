@@ -18,7 +18,15 @@
 ## 动态规划
 设定：dp[i] 代表以 nums[i] 结尾的 LIS 的长度；
 
-状态转移方程：dp[i] = max(dp[j] + 1,dp[i])  if(1 <= j <  i，nums[j] < nums[i])
+状态转移方程：
+<!--dp[i] = max(dp[j] + 1,dp[i])  if(1 <= j <  i，nums[j] < nums[i])-->
+$ dp[i] = 
+  \begin{cases}
+  max(dp[j] + 1,dp[i])  &if(1 <= j <  i，nums[j] < nums[i])\\
+  \end{cases}$
+
+
+
 
 
 ```C++
