@@ -1,11 +1,27 @@
 # LeetCode_0354 俄罗斯套娃信封问题
 
 ```C++
-sort(envelopes.begin(), envelopes.end(), [&](auto& a, auto& b) { 
-    return a[0] < b[0] || (a[0] == b[0] && a[1] < b[1]); 
-});
-
-
-
+class Solution {
+public:
+    
+    int maxEnvelopes_1(vector<vector<int>>& envelopes) {
+        if(envelopes.empty())return 0;
+        //先按w排序，若w相同，则按h由高到低排序；若w不同，则按w由小到大排序
+        sort(envelopes.begin(),envelopes.end(),[](const vector<int>& a,const vector<int>& b){
+            return a[0]<b[0]||(a[0]==b[0]&&a[1]>b[1]);
+        });
+        int n=envelopes.size(),res=0;
+        vector<int> dp(n,1);
+        for(int i=0;i<n;++i){
+            for(int j=0;j<i;++j){
+                if(envelopes[j][1]<envelopes[i][1]){
+                    dp[i]=max(dp[i],dp[j]+1);
+                }
+            }
+            res=max(res,dp[i]);
+        }
+        return res;
+    }
+}
 ```
 
