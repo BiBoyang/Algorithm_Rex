@@ -129,6 +129,7 @@
 | 0330 | 按要求补齐数组 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0330.md)|hard|
 | 0349 | 两个数组的交集 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0349.md)|easy|
 | 0350 | 两个数组的交集 II |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0350.md)|easy|
+| 0354 | 俄罗斯套娃信封问题 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0354.md)| hard |
 | 0380 | 常数时间插入、删除和获取随机元素 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0380.md)|medium|
 | 0387 | 字符串中的第一个唯一字符 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0387.md)|easy|
 | 0410 | 分割数组的最大值 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0410.md)|hard|
