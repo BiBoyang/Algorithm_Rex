@@ -32,7 +32,6 @@
 ```C++
 class Solution {
 public:
-    
     int maxEnvelopes_1(vector<vector<int>>& envelopes) {
         if(envelopes.empty())return 0;
         //先按w排序，若w相同，则按h由高到低排序；若w不同，则按w由小到大排序
