@@ -33,26 +33,24 @@
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
-        int n = nums.size();
-        if(n == 0){
-            return 0;
-        } else if(n == 1) {
-            return nums[0];
+        int len = nums.size();
+        if(len == 0) return 0;
+        int res = nums[0];
+        vector<int> maxDP(len);
+        vector<int> minDP(len);
+        maxDP[0] = nums[0];
+        minDP[0] = nums[0];
+
+        for(int i = 1;i < len;i++) {
+            maxDP[i] = max( max (maxDP[i - 1] * nums[i],nums[i]),minDP[i - 1] * nums[i]);
+            minDP[i] = min( min (maxDP[i - 1] * nums[i],nums[i]),minDP[i - 1] * nums[i]);
+            res = max(maxDP[i],res);
         }
-        int p = nums[0];
-        int maxP = nums[0];
-        int minP = nums[0];
-        for(int i = 1; i < n; i++) {
-            int t = maxP;
-            maxP = max(max(maxP * nums[i], nums[i]), minP *nums[i]);
-            minP = min(min(t * nums[i], nums[i]), minP * nums[i]);
-            p = max(maxP, p);
-        }
-        return p;
+
+        return res;
     }
 };
-
-
 ```
 
-
+* 时间复杂度：O(n)；
+* 空间复杂度：O(n)。
