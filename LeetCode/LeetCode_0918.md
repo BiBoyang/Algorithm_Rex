@@ -80,9 +80,9 @@ for(int i = 1;i < A.size();i++) {
 
 右区间实际上是求以 nums[0] 为开头的子段和，也是很简单的
 ```C++
-int leftSum = 0;
+int rightSum = 0;
 for (int i = 0; i < len-2; ++i) {
-    leftMax += A[i];
+    rightSum += A[i];
     ......
 }
 ```
@@ -91,7 +91,9 @@ for (int i = 0; i < len-2; ++i) {
 
 我们先创建一个 rightSums，用以保存左区间里的以 nums[len-1] 结尾的每一段的和；然后在计算出这里面最大的那个并保存。
 
+然后在最后计算的时候，我们将遍历 rightSum 将其与 leftMax 相加，以获取最大值。
 
+注意，我们在遍历的过程中，相加的是 leftMax[i+2]，因为**子数组最多只能包含固定缓冲区 A 中的每个元素一次。**
 
 
 ```C++
