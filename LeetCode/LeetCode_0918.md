@@ -61,7 +61,7 @@ for(int i = 1;i < A.size();i++) {
 
 这里，为了节约空间复杂度，我们可以进一步演化，将 dpA 数组变成一个变量。
 ```C++
-cur = cur = A[0];
+cur = A[0];
 for(int i = 1;i < A.size();i++) {
     cur = A[i] + max(cur,0);
     ans = max(ans,cur);
