@@ -44,6 +44,14 @@
 
 ## 解答
 
+
+将数字变成字符串，然后进行排序。
+
+但是这里会有一个问题，相同开头数字但是不同位数的数字可能会有问题。举个例子，输入：`nums = [3,30,34,5,9]`得到的结果是 `9534303`，但是实际上应该是 `9534330`。
+
+所以我们要使用C++的字符串加法来处理，排除异常。
+
+
 ```C++
 class Solution {
 public:
@@ -56,16 +64,7 @@ public:
             //首先将每个整型数转换为字符串,这个处理是为了防止数字超过标准
             strNums[i] = to_string(nums[i]);
         }
-        
-        // int len = nums.size();
-        // vector<string> strNums(len);
-        // for(int i=0;i<len;++i) {
-        //     //首先将每个整型数转换为字符串,这个处理是为了防止数字超过标准
-        //     strNums[i] = to_string(nums[i]);
-        // }
-        
-        
-        
+            
         //2.排序
         sort(strNums.begin(),strNums.end(),[](string a,string b){
             return a + b > b + a;
