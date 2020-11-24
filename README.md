@@ -5,6 +5,9 @@
 
 💓：非常值得看
 
+[刷题小记](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0001.md)
+
+
 
 # 题目
 
