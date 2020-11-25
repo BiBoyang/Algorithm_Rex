@@ -120,6 +120,7 @@
 | 0236 | 二叉树的最近公共祖先 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0236.md)|medium|
 | 0237 | 删除链表中的节点 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0237.md)|easy|
 | 0240 | 搜索二维矩阵II |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0240.md)|medium|
+| 0252 | 会议室 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0252.md)|easy|
 | 0257 | 二叉树的所有路径   |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0257.md)|easy|
 | 0260 | 只出现一次的数字 III |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0260.md)|medium|
 | 0263 | 丑数 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0263.md)|easy|
