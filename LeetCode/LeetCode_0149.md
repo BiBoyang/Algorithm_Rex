@@ -44,3 +44,39 @@
 
 可以使用最大公约数来进行计算，把除数和被除数都保存下来，不做除法，但是要让这两数分别除以它们的最大公约数，这样例如8和4，4和2，2和1，这三组商相同的数就都会存到一个映射里面。
 
+```C++
+class Solution {
+public:
+    int maxPoints(vector<vector<int>>& points) {
+        int res = 0;
+        int len = points.size();
+        for(int i = 0;i < len;i++) {
+            map<pair<int,int>,int> map;
+            int duplicate = 1;//表示重合
+            for(int j = i + 1;j < len;j++){
+                if(points[i][0] == points[j][0] && points[i][1] == points[j][1]){
+                    duplicate++;
+                    continue;
+                }
+                int dx = points[j][0] - points[i][0];
+                int dy = points[j][1] - points[i][1];
+                int d = gcd(dx,dy);
+                map[{dx / d,dy / d}]++;
+            }
+            res = max(res,duplicate);
+            for(auto it = map.begin();it != map.end();it++){
+                res = max(res,it->second + duplicate);
+            }
+            
+        }
+        return res;
+    }
+    int gcd(int a, int b) {
+        if(b == 0) {
+            return a;
+        } else {
+            return gcd(b, a % b);
+        }
+    }
+};
+```
