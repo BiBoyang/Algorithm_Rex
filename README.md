@@ -157,6 +157,7 @@
 | 0557 | 反转字符串中的单词 III |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0557.md)|easy|
 | 0559 | N叉树的最大深度 | [C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0559.md)  |  easy |
 | 0567 | 字符串的排列 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0567.md)|medium|
+| 0605| 种花问题 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0605.md)|easy|
 | 0599 | 两个列表的最小索引总和 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0599.md)|easy|
 | 0647 | 回文子串 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0647.md)|medium|
 | 0652| 寻找重复的子树 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0652.md)|medium|
@@ -277,6 +278,12 @@
 | 1004 | 最大连续 1 的个数III |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_1004.md)|medium|
 
 
+# 贪心问题
+
+
+| 题号 | 题目(中) | MyWiki |
+| --- | --- | --- |
+| 0605| 种花问题 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0605.md)|easy|
 
 # 动态规划
 
