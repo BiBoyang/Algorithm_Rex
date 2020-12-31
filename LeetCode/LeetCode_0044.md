@@ -60,10 +60,11 @@ p = "a*c?b"
 
 # 解答
 
-使用动态规划
+使用动态规划。
+
+dp[i][j] 表示 p 前 i 个字符和 s 前 j 个字符是否匹配，其中第i个元素，对应着下标为 i-1 的字符。j 同理。
 
 ```C++
-
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -74,8 +75,7 @@ public:
         for (int i = 1; i <= n; ++i) {
             if (p[i - 1] == '*') {
                 dp[0][i] = true;
-            }
-            else {
+            } else {
                 break;
             }
         }
@@ -83,8 +83,7 @@ public:
             for (int j = 1; j <= n; ++j) {
                 if (p[j - 1] == '*') {
                     dp[i][j] = dp[i][j - 1] | dp[i - 1][j];
-                }
-                else if (p[j - 1] == '?' || s[i - 1] == p[j - 1]) {
+                } else if (p[j - 1] == '?' || s[i - 1] == p[j - 1]) {
                     dp[i][j] = dp[i - 1][j - 1];
                 }
             }
@@ -92,5 +91,4 @@ public:
         return dp[m][n];
     }
 };
-
 ```
