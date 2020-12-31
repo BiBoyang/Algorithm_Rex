@@ -283,7 +283,9 @@
 
 | 题号 | 题目(中) | MyWiki |
 | --- | --- | --- |
+|💓 0330 | 按要求补齐数组 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0330.md)|hard|
 | 0605| 种花问题 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0605.md)|easy|
+| 1005 | K 次取反后最大化的数组和|[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_1005.md)|easy|
 
 # 动态规划
 
