@@ -132,7 +132,7 @@
 | 0319 | 灯泡开关 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0319.md)|medium|
 | 0322 | 零钱兑换 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0322.md)|medium|
 | 0328 | 奇偶链表  |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0328.md)|medium|
-| 0330 | 按要求补齐数组 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0330.md)|hard|
+|💓 0330 | 按要求补齐数组 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0330.md)|hard|
 | 0349 | 两个数组的交集 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0349.md)|easy|
 | 0350 | 两个数组的交集 II |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0350.md)|easy|
 | 0354 | 俄罗斯套娃信封问题 |[C++](https://github.com/BiBoyang/Algorithm_Rex/blob/master/LeetCode/LeetCode_0354.md)| hard |
