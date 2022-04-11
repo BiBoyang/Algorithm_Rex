@@ -1,6 +1,8 @@
 # LeetCode_0611. 有效三角形的个数
 
 
+
+
 给定一个包含非负整数的数组 nums ，返回其中可以组成三角形三条边的三元组个数。
 
  
@@ -30,20 +32,31 @@
 
 # 解答
 
+首先对数组排序。
+固定最长的一条边，运用双指针扫描
+如果 nums[l] + nums[r] > nums[i]，同时说明 nums[l + 1] + nums[r] > nums[i], ..., nums[r - 1] + nums[r] > nums[i]，满足的条件的有 r - l 种，r 左移进入下一轮。
+如果 nums[l] + nums[r] <= nums[i]，l 右移进入下一轮。
+枚举结束后，总和就是答案。
+
+
+
 ```C++
 class Solution {
 public:
     int triangleNumber(vector<int>& nums) {
         int len = nums.size();
-        sort(nums.begin(), nums.end());
         int ans = 0;
-        for (int i = 0; i < len; i++) {
-            int k = i;
-            for (int j = i + 1; j < len; j++) {
-                while (k + 1 < len && nums[k + 1] < nums[i] + nums[j]) {
-                    ++k;
+        sort(nums.begin(),nums.end());
+
+        for(int i = len - 1;i >= 2 ;i--) {
+            int left = 0,right = i - 1;
+            while(left < right) {
+                if(nums[left] + nums[right] > nums[i]){
+                    ans += right - left;
+                    right--;
+                } else {
+                    left++;
                 }
-                ans += max(k - j, 0);
             }
         }
         return ans;
