@@ -6,7 +6,7 @@
 
 看到“出不含重复字符”第一时间想到了 hash 表。
 
-```
+```Cpp
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -16,7 +16,8 @@ public:
         int left = 0;
 
         for(int right = 0;right < s.size();right++){
-            left = max(left,hashs[s[right]]);//hashs 记录的是重复的字符的下一个索引，不是当前索引！再往后是没有重复的
+            left = max(left,hashs[s[right]]);
+            //hashs 记录的是重复的字符的下一个索引，不是当前索引！再往后是没有重复的
             hashs[s[right]] = right + 1;
             //因为记录的是重复字符的下一个索引，所以要+1
             maxLength = max(maxLength, right - left + 1);
@@ -30,6 +31,12 @@ public:
 细解：
 
 代码里有一个 unordered_map<char, int>，应该是用来存储字符最近出现的位置。然后有 maxLength 记录最长子串的长度，left指针作为窗口的左边界，right 指针遍历整个字符串。
+
+这里利用了 unordered_map = hashMap[key] 的特点：
+* 在 C++ 中，当通过 hashMap[key] 访问一个不存在的键时：
+​​会自动插入该键​​，并将其值初始化为该类型的默认值（对 int 来说是 0）。
+
+可以这么说，hashMap 记录的是这个字符最靠右的那个，如果有更新，就会覆盖原来的值。
 
 在循环里，对于每个right，更新left的值。这里的left取的是当前left和hashMap中s[right]的值中的较大者。这一步是关键。比如，当遇到重复字符时，hashMap中已经存了该字符之前的位置，所以left要跳到那个位置的下一个，
 
