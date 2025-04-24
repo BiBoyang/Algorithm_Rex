@@ -16,10 +16,12 @@ public:
         int left = 0;
 
         for(int right = 0;right < s.size();right++){
+            //这里会对 hashs[s[right]]字符进行第一次赋值，默认为0
             left = max(left,hashs[s[right]]);
             //hashs 记录的是重复的字符的下一个索引，不是当前索引！再往后是没有重复的
-            hashs[s[right]] = right + 1;
             //因为记录的是重复字符的下一个索引，所以要+1
+            hashs[s[right]] = right + 1;
+
             maxLength = max(maxLength, right - left + 1);
         }
         //abbbabcd
@@ -34,17 +36,18 @@ public:
 
 这里利用了 unordered_map = hashMap[key] 的特点：
 * 在 C++ 中，当通过 hashMap[key] 访问一个不存在的键时：
-​​会自动插入该键​​，并将其值初始化为该类型的默认值（对 int 来说是 0）。
+​​会自动插入该键​​，并将其值初始化为该类型的默认值（对 int 来说是 0）。所以 **left = max(left,hashs[s[right]]);** 这段代码里的 **hashs[s[right]]** 的值就是 0 。
 
-可以这么说，hashMap 记录的是这个字符最靠右的那个，如果有更新，就会覆盖原来的值。
+接着在 **hashs[s[right]] = right + 1;** 中，hashMap 记录的是这个字符最靠右的那个，如果有更新，就会覆盖原来的值。
 
-在循环里，对于每个right，更新left的值。这里的left取的是当前left和hashMap中s[right]的值中的较大者。这一步是关键。比如，当遇到重复字符时，hashMap中已经存了该字符之前的位置，所以left要跳到那个位置的下一个，
+在循环里，对于每个 right，更新 left 的值。这里的 left 取的是当前 left 和 hashMap 中 s[right] 的值中的较大者。这一步是关键。比如，当遇到重复字符时，hashMap 中已经存了该字符之前的位置，所以 left 要跳到那个位置的下一个，
 
 注意！是**之前位置**的下一个，而非当前索引！！！这里是最容易被误解的地方。
 
 为什么要存“下一个索引”？​​
 
 当发现重复字符时，窗口左边界 left 需要直接跳到​​重复字符上次出现位置的下一个索引​​，以确保窗口内无重复。
+
 * 例如，字符串 "abba"：
 遍历到第二个 'b'（索引2）时，hashMap['b'] = 2（上一次出现位置是索引1，所以存的是 1 + 1 = 2）。
 * left 会更新到 2，窗口变为 [2, 2]（即当前字符 'b'）。
